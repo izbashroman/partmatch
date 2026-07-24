@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PARTMATCH — перегляд звітів</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1214;
+    --panel: #171b1e;
+    --panel-2: #1d2226;
+    --border: #2a3035;
+    --border-soft: #21262a;
+    --text: #e7eaec;
+    --text-dim: #8a939a;
+    --text-faint: #565e64;
+    --accent: #4fd1c5;
+    --accent-dim: #2b6f68;
+    --amber: #f5b944;
+    --red: #e2685f;
+    --font-ui: -apple-system, "Segoe UI", "IBM Plex Sans", Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, "IBM Plex Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-ui); font-size: 14px; line-height: 1.5; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 24px 80px; }
+
+  header.top { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 8px; }
+  .wordmark { font-family: var(--font-mono); font-size: 15px; letter-spacing: 0.06em; }
+  .wordmark span { color: var(--accent); }
+  .tagline { font-size: 12.5px; color: var(--text-faint); }
+
+  .tabs { display: flex; gap: 2px; margin-bottom: 16px; border-bottom: 1px solid var(--border-soft); }
+  .tab-btn {
+    background: transparent; border: none; color: var(--text-faint); font-family: var(--font-mono);
+    font-size: 12.5px; padding: 9px 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px;
+  }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .tab-btn .tb-badge { color: var(--text-faint); font-size: 10.5px; margin-left: 4px; }
+  .tab-btn.active .tb-badge { color: var(--accent-dim); }
+
+  .tabpanel { display: none; }
+  .tabpanel.active { display: block; }
+
+  .dropzone {
+    border: 1px dashed var(--border);
+    border-radius: 8px;
+    padding: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: border-color .15s, background .15s;
+  }
+  .dropzone.drag { border-color: var(--accent); background: var(--panel); }
+  .dropzone.loaded { padding: 14px 20px; text-align: left; display: flex; align-items: center; justify-content: space-between; gap: 14px; border-style: solid; border-color: var(--accent-dim); }
+  .dropzone .dz-label { font-size: 13px; color: var(--text-dim); }
+  .dropzone .dz-label b { color: var(--text); }
+  .dropzone .dz-hint { font-size: 11px; color: var(--text-faint); margin-top: 4px; }
+  .dropzone input[type=file] { display: none; }
+  .dropzone .dz-pick {
+    display: inline-block; margin-top: 10px; font-family: var(--font-mono); font-size: 12px; color: var(--accent);
+    border: 1px solid var(--accent-dim); border-radius: 5px; padding: 7px 14px; cursor: pointer;
+  }
+  .dropzone.loaded .dz-pick { margin-top: 0; }
+  .dz-error { color: var(--red); font-size: 12px; margin-top: 8px; }
+  .dz-replace { background: transparent; border: 1px solid var(--border); color: var(--text-dim); font-family: var(--font-mono); font-size: 11px; padding: 6px 10px; border-radius: 4px; cursor: pointer; white-space: nowrap; }
+
+  .toolbar { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; flex-wrap: wrap; }
+  .search-box { flex: 1; min-width: 260px; position: relative; }
+  .search-box input {
+    width: 100%; background: var(--panel); border: 1px solid var(--border); color: var(--text);
+    font-family: var(--font-mono); font-size: 14.5px; padding: 11px 14px 11px 32px; border-radius: 6px; outline: none;
+  }
+  .search-box input:focus { border-color: var(--accent-dim); }
+  .search-box::before {
+    content: "›"; position: absolute; left: 13px; top: 50%; transform: translateY(-50%);
+    color: var(--accent); font-family: var(--font-mono); font-size: 16px;
+  }
+  label.check { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--text-dim); white-space: nowrap; cursor: pointer; }
+
+  .status-line {
+    font-family: var(--font-mono); font-size: 12px; color: var(--text-faint); margin-bottom: 12px;
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+  }
+  .status-line button {
+    background: transparent; border: 1px solid var(--border); color: var(--text-dim);
+    font-family: var(--font-mono); font-size: 11px; padding: 5px 9px; border-radius: 4px; cursor: pointer;
+  }
+  .status-line button:hover { border-color: var(--accent-dim); color: var(--accent); }
+
+  .sup-legend { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .sup-chip {
+    font-family: var(--font-mono); font-size: 11px; color: var(--text-dim);
+    border: 1px solid var(--border); border-radius: 20px; padding: 4px 10px; cursor: pointer;
+  }
+  .sup-chip b { color: var(--accent); font-weight: 600; }
+  .sup-chip.active { border-color: var(--accent); color: var(--accent); background: var(--panel); }
+
+  table.results { width: 100%; border-collapse: collapse; }
+  table.results th {
+    text-align: left; font-size: 10.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--text-faint);
+    font-weight: 500; padding: 8px 10px; border-bottom: 1px solid var(--border);
+  }
+  table.results td { padding: 9px 10px; border-bottom: 1px solid var(--border-soft); vertical-align: top; }
+  tr.row-item { cursor: pointer; }
+  tr.row-item:hover td { background: var(--panel); }
+  td.c-art { font-family: var(--font-mono); font-size: 12px; color: var(--text-dim); white-space: nowrap; }
+  td.c-device { color: var(--text); }
+  td.c-klas { color: var(--text-dim); font-size: 13px; }
+  td.c-price { font-family: var(--font-mono); text-align: right; white-space: nowrap; }
+  td.c-price .p { color: var(--amber); font-weight: 600; }
+  td.c-price .none { color: var(--text-faint); }
+  td.c-sup { font-family: var(--font-mono); font-size: 11.5px; color: var(--accent); white-space: nowrap; }
+  td.c-count { font-family: var(--font-mono); font-size: 11px; color: var(--text-faint); text-align: right; }
+  tr.row-expand td { background: var(--panel-2); padding: 10px 14px; }
+  .offer-line { font-family: var(--font-mono); font-size: 12px; padding: 3px 0; color: var(--text-dim); border-bottom: 1px solid var(--border-soft); }
+  .offer-line:last-child { border-bottom: none; }
+  .offer-line .price { color: var(--amber); font-weight: 600; }
+  .offer-line .sup { color: var(--accent); }
+  .offer-line .name { color: var(--text); }
+
+  .empty { padding: 40px 10px; text-align: center; color: var(--text-faint); font-size: 13px; }
+  .tab-empty { border: 1px dashed var(--border-soft); border-radius: 8px; }
+  .more-hint { text-align: center; padding: 14px; color: var(--text-faint); font-size: 12px; font-family: var(--font-mono); }
+
+  .dz-loaded-list { margin-top: 12px; display: flex; flex-direction: column; gap: 5px; align-items: center; }
+  .dz-loaded-item {
+    font-family: var(--font-mono); font-size: 11.5px; color: var(--text-dim);
+    display: flex; align-items: center; gap: 8px; background: var(--panel-2);
+    border: 1px solid var(--border-soft); border-radius: 20px; padding: 4px 6px 4px 12px;
+  }
+  .dz-loaded-item .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+  .dz-loaded-item b { color: var(--text); font-weight: 600; }
+  .dz-loaded-item .rm {
+    cursor: pointer; color: var(--text-faint); border: none; background: transparent;
+    font-family: var(--font-mono); font-size: 13px; line-height: 1; padding: 3px 6px;
+  }
+  .dz-loaded-item .rm:hover { color: var(--red); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <div class="wordmark">PART<span>MATCH</span></div>
+      <div class="tagline">перегляд report.csv та unmatched_supplier_offers.csv — пошук і фільтр по постачальниках</div>
+    </div>
+  </header>
+
+  <div class="dropzone" id="sharedDropzone">
+    <div class="dz-label">Перетягніть сюди <b>report.csv</b> та/або <b>unmatched_supplier_offers.csv</b> — можна обидва одразу</div>
+    <label class="dz-pick">обрати файл(и)<input type="file" accept=".csv" id="sharedFileInput" multiple></label>
+    <div class="dz-hint">тип файлу визначається автоматично за колонками</div>
+    <div class="dz-error" style="display:none"></div>
+    <div class="dz-loaded-list" id="dzLoadedList"></div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="report">Звіт <span class="tb-badge" id="reportBadge"></span></button>
+    <button class="tab-btn" data-tab="catalog">Повний каталог <span class="tb-badge" id="catalogBadge"></span></button>
+    <button class="tab-btn" data-tab="unmatched">Без відповідника у постачальників <span class="tb-badge" id="unmatchedBadge"></span></button>
+  </div>
+
+  <div class="tabpanel active" id="panel-report">
+    <div class="controls" style="display:none">
+      <div class="toolbar">
+        <div class="search-box"><input type="text" class="search-input" placeholder="пошук: артикул, назва, модель, категорія, товар постачальника…" autocomplete="off"></div>
+        <label class="check"><input type="checkbox" class="only-offers" checked> лише з пропозиціями</label>
+      </div>
+      <div class="sup-legend"></div>
+      <div class="status-line"><span class="status-text"></span><button class="export-btn">завантажити відфільтроване CSV</button></div>
+      <div class="results-wrap"></div>
+      <div class="more-hint" style="display:none"></div>
+    </div>
+    <div class="empty tab-empty">завантажте report.csv у зону вище</div>
+  </div>
+
+  <div class="tabpanel" id="panel-catalog">
+    <div class="controls" style="display:none">
+      <div class="toolbar">
+        <div class="search-box"><input type="text" class="search-input" placeholder="пошук: артикул, назва, модель, категорія…" autocomplete="off"></div>
+      </div>
+      <div class="status-line"><span class="status-text"></span><button class="export-btn">завантажити відфільтроване CSV</button></div>
+      <div class="results-wrap"></div>
+      <div class="more-hint" style="display:none"></div>
+    </div>
+    <div class="empty tab-empty">завантажте Звіт та/або Без відповідника у зону вище — повний каталог збереться автоматично</div>
+  </div>
+
+  <div class="tabpanel" id="panel-unmatched">
+    <div class="controls" style="display:none">
+      <div class="toolbar">
+        <div class="search-box"><input type="text" class="search-input" placeholder="пошук: назва товару, модель, категорія…" autocomplete="off"></div>
+      </div>
+      <div class="sup-legend"></div>
+      <div class="status-line"><span class="status-text"></span><button class="export-btn">завантажити відфільтроване CSV</button></div>
+      <div class="results-wrap"></div>
+      <div class="more-hint" style="display:none"></div>
+    </div>
+    <div class="empty tab-empty">завантажте unmatched_supplier_offers.csv у зону вище</div>
+  </div>
+
+</div>
+
+<script>
+"use strict";
+
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+function normText(s) { return (s || "").toLowerCase(); }
+
+function parseOfferString(str) {
+  const s = str.trim();
+  const m = s.match(/^([\d.,]+)\$\s+(\S+)(?:\s+\((.*)\))?$/);
+  if (m) return { price: parseFloat(m[1].replace(",", ".")), supplier: m[2], detail: m[3] || "" };
+  return { price: null, supplier: "?", detail: s };
+}
+
+/* ============ Модель "Каталог" (report.csv) ============ */
+const reportState = { loaded: false, rows: [], suppliers: [], activeSupplier: null, expanded: new Set() };
+
+function buildReportState(data) {
+  if (!data.length || !("Артикул" in data[0])) throw new Error("не знайдено колонку 'Артикул'");
+  const supplierSet = new Set();
+  const rows = data.map((r) => {
+    const offersRaw = (r["Всі пропозиції"] || "").trim();
+    const offers = offersRaw ? offersRaw.split(" | ").map(parseOfferString) : [];
+    offers.forEach((o) => supplierSet.add(o.supplier));
+    return {
+      artikul: r["Артикул"] || "", device: r["Пристрій"] || "", klas: r["Клас"] || "",
+      offers,
+    };
+  });
+  reportState.rows = rows;
+  reportState.suppliers = [...supplierSet].sort();
+  reportState.activeSupplier = null;
+  reportState.loaded = true;
+}
+
+function reportOffersForActiveSupplier(row) {
+  if (reportState.activeSupplier === null) return row.offers;
+  return row.offers.filter((o) => o.supplier === reportState.activeSupplier);
+}
+function reportSearchable(row) {
+  const offerText = row.offers.map((o) => `${o.detail} ${o.supplier}`).join(" ");
+  return normText(`${row.artikul} ${row.device} ${row.klas} ${offerText}`);
+}
+function reportFilteredRows(panel) {
+  const q = normText(panel.querySelector(".search-input").value.trim());
+  const onlyOffers = panel.querySelector(".only-offers").checked;
+  let rows = reportState.rows.map((r) => ({ ...r, filteredOffers: reportOffersForActiveSupplier(r) }));
+  if (reportState.activeSupplier !== null) rows = rows.filter((r) => r.filteredOffers.length > 0);
+  else if (onlyOffers) rows = rows.filter((r) => r.offers.length > 0);
+  if (q) rows = rows.filter((r) => reportSearchable(r).includes(q));
+  return rows;
+}
+function renderReportLegend(panel) {
+  const wrap = panel.querySelector(".sup-legend");
+  const counts = {};
+  for (const row of reportState.rows) for (const o of row.offers) counts[o.supplier] = (counts[o.supplier] || 0) + 1;
+  let html = `<span class="sup-chip ${reportState.activeSupplier === null ? "active" : ""}" data-sup="">усі постачальники</span>`;
+  for (const sup of reportState.suppliers) {
+    html += `<span class="sup-chip ${reportState.activeSupplier === sup ? "active" : ""}" data-sup="${esc(sup)}">${esc(sup)} <b>${counts[sup] || 0}</b></span>`;
+  }
+  wrap.innerHTML = html;
+  wrap.querySelectorAll(".sup-chip").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      reportState.activeSupplier = chip.dataset.sup || null;
+      renderReportLegend(panel);
+      renderReport(panel);
+    });
+  });
+}
+function renderReport(panel) {
+  const wrap = panel.querySelector(".results-wrap");
+  const hint = panel.querySelector(".more-hint");
+  const rows = reportFilteredRows(panel);
+  const totalMatched = reportState.rows.filter((r) => r.offers.length > 0).length;
+  panel.querySelector(".status-text").textContent =
+    `${reportState.rows.length} позицій · ${totalMatched} з пропозиціями · ${reportState.suppliers.length} постачальник(ів) у файлі · показано ${rows.length}`;
+  document.getElementById("reportBadge").textContent = reportState.loaded ? reportState.rows.length : "";
+
+  if (rows.length === 0) { wrap.innerHTML = '<div class="empty">нічого не знайдено</div>'; hint.style.display = "none"; return; }
+  const CAP = 250;
+  const shown = rows.slice(0, CAP);
+  let html = '<table class="results"><thead><tr><th>Артикул</th><th>Пристрій</th><th>Клас</th><th style="text-align:right">Ціна</th><th>Постачальник</th><th style="text-align:right">К-сть</th></tr></thead><tbody>';
+  shown.forEach((r, i) => {
+    const offers = r.filteredOffers;
+    const best = offers.length ? offers[0] : null;
+    const priceHtml = best && best.price !== null ? `<span class="p">${best.price.toFixed(2)}$</span>` : '<span class="none">—</span>';
+    html += `<tr class="row-item" data-idx="${i}">
+      <td class="c-art">${esc(r.artikul)}</td><td class="c-device">${esc(r.device)}</td><td class="c-klas">${esc(r.klas)}</td>
+      <td class="c-price">${priceHtml}</td><td class="c-sup">${esc(best ? best.supplier : "")}</td><td class="c-count">${offers.length || ""}</td>
+    </tr>`;
+    if (reportState.expanded.has(r.artikul) && offers.length) {
+      html += `<tr class="row-expand"><td colspan="6">` +
+        offers.map((o) => `<div class="offer-line"><span class="price">${o.price !== null ? o.price.toFixed(2) + "$" : "—"}</span> <span class="sup">${esc(o.supplier)}</span> <span class="name">${esc(o.detail)}</span></div>`).join("") +
+        `</td></tr>`;
+    }
+  });
+  html += "</tbody></table>";
+  wrap.innerHTML = html;
+  wrap.querySelectorAll("tr.row-item").forEach((tr) => {
+    tr.addEventListener("click", () => {
+      const r = shown[parseInt(tr.dataset.idx, 10)];
+      if (!r.filteredOffers.length) return;
+      if (reportState.expanded.has(r.artikul)) reportState.expanded.delete(r.artikul);
+      else reportState.expanded.add(r.artikul);
+      renderReport(panel);
+    });
+  });
+  hint.style.display = rows.length > CAP ? "block" : "none";
+  if (rows.length > CAP) hint.textContent = `показано перших ${CAP} з ${rows.length} — уточніть пошук`;
+}
+function exportReport(panel) {
+  const rows = reportFilteredRows(panel);
+  const out = [["Артикул", "Пристрій", "Клас", "Ціна", "Постачальник", "Кількість", "Всі пропозиції (відфільтровано)"]];
+  for (const r of rows) {
+    const offers = r.filteredOffers;
+    const best = offers.length ? offers[0] : null;
+    const offersStr = offers.map((o) => `${o.price ?? ""}$ ${o.supplier} (${o.detail})`).join(" | ");
+    out.push([r.artikul, r.device, r.klas, best ? best.price : "", best ? best.supplier : "", offers.length, offersStr]);
+  }
+  downloadCsv(out, "report_filtered.csv");
+}
+
+/* ============ Модель "Без відповідника" (unmatched_supplier_offers.csv) ============ */
+const unmatchedState = { loaded: false, rows: [], suppliers: [], activeSupplier: null };
+
+function buildUnmatchedState(data) {
+  if (!data.length || !("Постачальник" in data[0])) throw new Error("не знайдено колонку 'Постачальник'");
+  const supplierSet = new Set();
+  const rows = data.map((r) => {
+    supplierSet.add(r["Постачальник"] || "");
+    return {
+      supplier: r["Постачальник"] || "",
+      model: r["Модель (розпізнано)"] || "",
+      klas: r["Клас (розпізнано)"] || "",
+      price: r["Ціна"] || "",
+      currency: r["Валюта"] || "",
+      desc: r["Опис/варіант"] || "",
+    };
+  });
+  unmatchedState.rows = rows;
+  unmatchedState.suppliers = [...supplierSet].sort();
+  unmatchedState.activeSupplier = null;
+  unmatchedState.loaded = true;
+}
+function unmatchedSearchable(row) {
+  return normText(`${row.desc} ${row.model} ${row.klas} ${row.supplier}`);
+}
+function unmatchedFilteredRows(panel) {
+  const q = normText(panel.querySelector(".search-input").value.trim());
+  let rows = unmatchedState.rows;
+  if (unmatchedState.activeSupplier !== null) rows = rows.filter((r) => r.supplier === unmatchedState.activeSupplier);
+  if (q) rows = rows.filter((r) => unmatchedSearchable(r).includes(q));
+  return rows;
+}
+function renderUnmatchedLegend(panel) {
+  const wrap = panel.querySelector(".sup-legend");
+  const counts = {};
+  for (const row of unmatchedState.rows) counts[row.supplier] = (counts[row.supplier] || 0) + 1;
+  let html = `<span class="sup-chip ${unmatchedState.activeSupplier === null ? "active" : ""}" data-sup="">усі постачальники</span>`;
+  for (const sup of unmatchedState.suppliers) {
+    html += `<span class="sup-chip ${unmatchedState.activeSupplier === sup ? "active" : ""}" data-sup="${esc(sup)}">${esc(sup)} <b>${counts[sup] || 0}</b></span>`;
+  }
+  wrap.innerHTML = html;
+  wrap.querySelectorAll(".sup-chip").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      unmatchedState.activeSupplier = chip.dataset.sup || null;
+      renderUnmatchedLegend(panel);
+      renderUnmatched(panel);
+    });
+  });
+}
+function renderUnmatched(panel) {
+  const wrap = panel.querySelector(".results-wrap");
+  const hint = panel.querySelector(".more-hint");
+  const rows = unmatchedFilteredRows(panel);
+  panel.querySelector(".status-text").textContent = `${unmatchedState.rows.length} товарів без відповідника · ${unmatchedState.suppliers.length} постачальник(ів) · показано ${rows.length}`;
+  document.getElementById("unmatchedBadge").textContent = unmatchedState.loaded ? unmatchedState.rows.length : "";
+
+  if (rows.length === 0) { wrap.innerHTML = '<div class="empty">нічого не знайдено</div>'; hint.style.display = "none"; return; }
+  const CAP = 250;
+  const shown = rows.slice(0, CAP);
+  let html = '<table class="results"><thead><tr><th>Постачальник</th><th>Модель</th><th>Клас</th><th style="text-align:right">Ціна</th><th>Товар</th></tr></thead><tbody>';
+  for (const r of shown) {
+    html += `<tr>
+      <td class="c-sup">${esc(r.supplier)}</td>
+      <td class="c-device">${esc(r.model || "—")}</td>
+      <td class="c-klas">${esc(r.klas || "—")}</td>
+      <td class="c-price"><span class="p">${esc(r.price)}${esc(r.currency)}</span></td>
+      <td class="c-device">${esc(r.desc)}</td>
+    </tr>`;
+  }
+  html += "</tbody></table>";
+  wrap.innerHTML = html;
+  hint.style.display = rows.length > CAP ? "block" : "none";
+  if (rows.length > CAP) hint.textContent = `показано перших ${CAP} з ${rows.length} — уточніть пошук`;
+}
+function exportUnmatched(panel) {
+  const rows = unmatchedFilteredRows(panel);
+  const out = [["Постачальник", "Модель", "Клас", "Ціна", "Валюта", "Товар"]];
+  for (const r of rows) out.push([r.supplier, r.model, r.klas, r.price, r.currency, r.desc]);
+  downloadCsv(out, "unmatched_filtered.csv");
+}
+
+/* ============ Модель "Повний каталог" — авто-об'єднання Звіту + Без відповідника ============
+   Окремого файлу тут не завантажують: щойно є дані у Звіті та/або Без відповідника,
+   ця вкладка збирає їх в один список — позиції каталогу (з артикулом) і товари
+   постачальників без відповідника (без артикула) поруч, з єдиним пошуком. */
+const catalogState = { rows: [] };
+
+function rebuildCombinedCatalog() {
+  const rows = [];
+  for (const r of reportState.rows) {
+    const best = r.offers.length ? r.offers[0] : null;
+    rows.push({
+      artikul: r.artikul, device: r.device, klas: r.klas, source: "звіт",
+      price: best ? best.price : null, supplier: best ? best.supplier : "", count: r.offers.length,
+    });
+  }
+  for (const r of unmatchedState.rows) {
+    rows.push({
+      artikul: "", device: r.model || "(модель не розпізнана)", klas: r.klas || "(клас не розпізнаний)",
+      source: "без відповідника", price: r.price === "" ? null : parseFloat(r.price), supplier: r.supplier, count: 1,
+    });
+  }
+  catalogState.rows = rows;
+  document.getElementById("catalogBadge").textContent = rows.length || "";
+}
+
+function catalogSearchable(row) {
+  return normText(`${row.artikul} ${row.device} ${row.klas} ${row.supplier}`);
+}
+function catalogFilteredRows(panel) {
+  const q = normText(panel.querySelector(".search-input").value.trim());
+  let rows = catalogState.rows;
+  if (q) rows = rows.filter((r) => catalogSearchable(r).includes(q));
+  return rows;
+}
+function renderCatalogLegend() {} // легенда постачальників тут не потрібна — джерела різні за природою
+function renderCatalog(panel) {
+  const wrap = panel.querySelector(".results-wrap");
+  const hint = panel.querySelector(".more-hint");
+  panel.querySelector(".tab-empty")?.remove();
+
+  if (catalogState.rows.length === 0) {
+    panel.querySelector(".controls").style.display = "none";
+    if (!panel.querySelector(".tab-empty")) {
+      const d = document.createElement("div");
+      d.className = "empty tab-empty";
+      d.textContent = "завантажте Звіт та/або Без відповідника у зону вище — повний каталог збереться автоматично";
+      panel.appendChild(d);
+    }
+    return;
+  }
+  panel.querySelector(".controls").style.display = "block";
+
+  const rows = catalogFilteredRows(panel);
+  const fromReport = catalogState.rows.filter((r) => r.source === "звіт").length;
+  const fromUnmatched = catalogState.rows.filter((r) => r.source === "без відповідника").length;
+  panel.querySelector(".status-text").textContent =
+    `${catalogState.rows.length} позицій разом (${fromReport} зі Звіту, ${fromUnmatched} без відповідника) · показано ${rows.length}`;
+
+  if (rows.length === 0) { wrap.innerHTML = '<div class="empty">нічого не знайдено</div>'; hint.style.display = "none"; return; }
+  const CAP = 300;
+  const shown = rows.slice(0, CAP);
+  let html = '<table class="results"><thead><tr><th>Артикул</th><th>Пристрій / товар</th><th>Клас</th><th>Джерело</th><th style="text-align:right">Ціна</th><th>Постачальник</th></tr></thead><tbody>';
+  for (const r of shown) {
+    const priceHtml = r.price !== null && !isNaN(r.price) ? `<span class="p">${r.price.toFixed(2)}$</span>` : '<span class="none">—</span>';
+    html += `<tr>
+      <td class="c-art">${esc(r.artikul) || '<span class="none">—</span>'}</td>
+      <td class="c-device">${esc(r.device)}</td>
+      <td class="c-klas">${esc(r.klas)}</td>
+      <td class="c-klas">${esc(r.source)}</td>
+      <td class="c-price">${priceHtml}</td>
+      <td class="c-sup">${esc(r.supplier)}</td>
+    </tr>`;
+  }
+  html += "</tbody></table>";
+  wrap.innerHTML = html;
+  hint.style.display = rows.length > CAP ? "block" : "none";
+  if (rows.length > CAP) hint.textContent = `показано перших ${CAP} з ${rows.length} — уточніть пошук`;
+}
+function exportCatalog(panel) {
+  const rows = catalogFilteredRows(panel);
+  const out = [["Артикул", "Пристрій/товар", "Клас", "Джерело", "Ціна", "Постачальник"]];
+  for (const r of rows) out.push([r.artikul, r.device, r.klas, r.source, r.price ?? "", r.supplier]);
+  downloadCsv(out, "catalog_combined_filtered.csv");
+}
+
+/* ============ Спільне ============ */
+function downloadCsv(rowsArr, filename) {
+  const csv = Papa.unparse(rowsArr);
+  const blob = new Blob(["\ufeff" + csv], { type: "text/csv;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+}
+
+const KINDS = {
+  report: { buildFn: buildReportState, renderFn: renderReport, legendFn: renderReportLegend, exportFn: exportReport, label: "Звіт" },
+  unmatched: { buildFn: buildUnmatchedState, renderFn: renderUnmatched, legendFn: renderUnmatchedLegend, exportFn: exportUnmatched, label: "Без відповідника" },
+};
+const CATALOG_TAB = { renderFn: renderCatalog, exportFn: exportCatalog };
+
+function wireTabControls(kind) {
+  const panel = document.getElementById("panel-" + kind);
+  const cfg = KINDS[kind];
+  panel.querySelector(".search-input").addEventListener("input", () => cfg.renderFn(panel));
+  const onlyOffers = panel.querySelector(".only-offers");
+  if (onlyOffers) onlyOffers.addEventListener("change", () => cfg.renderFn(panel));
+  panel.querySelector(".export-btn").addEventListener("click", () => cfg.exportFn(panel));
+}
+wireTabControls("report");
+wireTabControls("unmatched");
+
+// вкладка "Повний каталог" не має власного файлу для завантаження — дані туди
+// збираються автоматично з reportState + unmatchedState (див. rebuildCombinedCatalog)
+(function wireCatalogTab() {
+  const panel = document.getElementById("panel-catalog");
+  panel.querySelector(".search-input").addEventListener("input", () => CATALOG_TAB.renderFn(panel));
+  panel.querySelector(".export-btn").addEventListener("click", () => CATALOG_TAB.exportFn(panel));
+})();
+
+function detectKind(headerRowKeys) {
+  if (headerRowKeys.includes("Артикул") && headerRowKeys.includes("Всі пропозиції")) return "report";
+  if (headerRowKeys.includes("Постачальник") && headerRowKeys.includes("Опис/варіант")) return "unmatched";
+  return null;
+}
+
+function activateKind(kind, fileName) {
+  const panel = document.getElementById("panel-" + kind);
+  const cfg = KINDS[kind];
+  panel.querySelector(".controls").style.display = "block";
+  panel.querySelector(".tab-empty")?.remove();
+  cfg.legendFn(panel);
+  cfg.renderFn(panel);
+  addLoadedChip(kind, fileName);
+  rebuildCombinedCatalog();
+  renderCatalog(document.getElementById("panel-catalog"));
+  // якщо це перший завантажений файл — перемкнутись на його вкладку
+  document.querySelector(`.tab-btn[data-tab="${kind}"]`).click();
+}
+
+function addLoadedChip(kind, fileName) {
+  const list = document.getElementById("dzLoadedList");
+  let chip = list.querySelector(`[data-kind-chip="${kind}"]`);
+  if (!chip) {
+    chip = document.createElement("div");
+    chip.className = "dz-loaded-item";
+    chip.dataset.kindChip = kind;
+    list.appendChild(chip);
+  }
+  chip.innerHTML = `<span class="dot"></span> ${KINDS[kind].label}: <b>${esc(fileName)}</b>`;
+  const rm = document.createElement("button");
+  rm.className = "rm";
+  rm.textContent = "×";
+  rm.title = "прибрати";
+  rm.addEventListener("click", () => {
+    chip.remove();
+    const panel = document.getElementById("panel-" + kind);
+    panel.querySelector(".controls").style.display = "none";
+    if (!panel.querySelector(".tab-empty")) {
+      const emptyDiv = document.createElement("div");
+      emptyDiv.className = "empty tab-empty";
+      const hints = {
+        report: "завантажте report.csv у зону вище",
+        unmatched: "завантажте unmatched_supplier_offers.csv у зону вище",
+      };
+      emptyDiv.textContent = hints[kind];
+      panel.appendChild(emptyDiv);
+    }
+    if (kind === "report") { reportState.loaded = false; reportState.rows = []; document.getElementById("reportBadge").textContent = ""; }
+    else { unmatchedState.loaded = false; unmatchedState.rows = []; document.getElementById("unmatchedBadge").textContent = ""; }
+    rebuildCombinedCatalog();
+    renderCatalog(document.getElementById("panel-catalog"));
+  });
+  chip.appendChild(rm);
+}
+
+function loadSharedFile(file) {
+  const dzError = document.querySelector("#sharedDropzone .dz-error");
+  dzError.style.display = "none";
+  Papa.parse(file, {
+    header: true, skipEmptyLines: true, encoding: "UTF-8",
+    complete: (results) => {
+      const keys = results.data.length ? Object.keys(results.data[0]) : [];
+      const kind = detectKind(keys);
+      if (!kind) {
+        dzError.textContent = `Не розпізнав тип файлу "${file.name}" — очікую колонку "Артикул"+"Всі пропозиції" (report.csv) або "Постачальник"+"Опис/варіант" (unmatched_supplier_offers.csv).`;
+        dzError.style.display = "block";
+        return;
+      }
+      try {
+        KINDS[kind].buildFn(results.data);
+        activateKind(kind, file.name);
+      } catch (err) {
+        dzError.textContent = `Помилка в "${file.name}": ${err.message}`;
+        dzError.style.display = "block";
+      }
+    },
+    error: () => { dzError.textContent = "Не вдалося прочитати файл."; dzError.style.display = "block"; },
+  });
+}
+
+function loadSharedFiles(fileList) {
+  Array.from(fileList).forEach(loadSharedFile);
+}
+
+const sharedDz = document.getElementById("sharedDropzone");
+document.getElementById("sharedFileInput").addEventListener("change", (e) => loadSharedFiles(e.target.files));
+sharedDz.addEventListener("dragover", (e) => { e.preventDefault(); sharedDz.classList.add("drag"); });
+sharedDz.addEventListener("dragleave", () => sharedDz.classList.remove("drag"));
+sharedDz.addEventListener("drop", (e) => {
+  e.preventDefault();
+  sharedDz.classList.remove("drag");
+  if (e.dataTransfer.files.length) loadSharedFiles(e.dataTransfer.files);
+});
+
+document.querySelectorAll(".tab-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
+    document.querySelectorAll(".tabpanel").forEach((p) => p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById("panel-" + btn.dataset.tab).classList.add("active");
+  });
+});
+
+/* ============ Авто-завантаження з тієї ж теки (GitHub Pages) ============
+   Якщо сторінка відкрита через http(s) (не файлом з диска) і поруч лежать
+   report.csv / unmatched_supplier_offers.csv (саме туди їх кладе GitHub
+   Actions), підвантажуємо їх сам без drag&drop. Якщо файлів немає або
+   сторінка відкрита локально (file://) — тихо мовчимо, працює звичний
+   ручний режим. */
+async function tryAutoLoad() {
+  if (location.protocol === "file:") return;
+  const banner = document.createElement("div");
+  banner.className = "dz-hint";
+  banner.style.marginTop = "10px";
+  let any = false;
+  for (const [kind, filename] of [["report", "report.csv"], ["unmatched", "unmatched_supplier_offers.csv"]]) {
+    try {
+      const resp = await fetch("./" + filename, { cache: "no-store" });
+      if (!resp.ok) continue;
+      const text = await resp.text();
+      const data = Papa.parse(text, { header: true, skipEmptyLines: true }).data;
+      const keys = data.length ? Object.keys(data[0]) : [];
+      if (detectKind(keys) !== kind) continue;
+      KINDS[kind].buildFn(data);
+      addLoadedChip(kind, filename + " (авто, з GitHub Pages)");
+      document.getElementById("panel-" + kind).querySelector(".controls").style.display = "block";
+      document.getElementById("panel-" + kind).querySelector(".tab-empty")?.remove();
+      KINDS[kind].legendFn(document.getElementById("panel-" + kind));
+      KINDS[kind].renderFn(document.getElementById("panel-" + kind));
+      any = true;
+    } catch (e) { /* немає файлу поруч або мережева помилка — ігноруємо */ }
+  }
+  if (any) {
+    rebuildCombinedCatalog();
+    renderCatalog(document.getElementById("panel-catalog"));
+    document.querySelector('.tab-btn[data-tab="report"]').click();
+  }
+}
+tryAutoLoad();
+</script>
+</body>
+</html>
