@@ -139,6 +139,7 @@ U.136.000-004,,Плата програматора,0,,,
 U.025.000-021,"Apple IPhone 13 Pro, Apple IPhone 13 Pro Max",Камера основна без лідару,0,,,
 U.035.000-016,"Apple IPhone 13 Pro, Apple IPhone 13 Pro Max",Комплект скла основної камери,2,2.4,ocapro,2.4$ ocapro (Опт — Скло камери iPhone 13 Pro/13 Pro Max ORIG комплект 3 шт.) | 2.55$ ocapro (Роздріб — Скло камери iPhone 13 Pro/13 Pro Max ORIG комплект 3 шт.)
 U.035.000-032,Apple iPhone 14,Комплект скла основної камери,2,1.39,ocapro,1.39$ ocapro (Опт — Скло камери iPhone 14 ORIG 2 шт.) | 1.49$ ocapro (Роздріб — Скло камери iPhone 14 ORIG 2 шт.)
+U.035.000-036,Apple iPhone 14 Pro,Комплект скла основної камери,2,2.01,ocapro,2.01$ ocapro (Опт — Скло камери iPhone 14 Pro ORIG 3 шт.) | 2.16$ ocapro (Роздріб — Скло камери iPhone 14 Pro ORIG 3 шт.)
 U.117.000-002,"Apple IPhone 13 Pro, Apple IPhone 13 Pro Max",Шлейф акумулятора,4,8.93,ocapro,8.93$ ocapro (Опт — JCID Tag-On Battery Repair iPhone 13 Pro/13 Pro Max) | 9.57$ ocapro (Роздріб — JCID Tag-On Battery Repair iPhone 13 Pro/13 Pro Max) | 13.75$ ocapro (Опт — JCID Face ID Tag-On Repair iPhone 13 Pro Max) | 14.74$ ocapro (Роздріб — JCID Face ID Tag-On Repair iPhone 13 Pro Max)
 U.025.000-022,"Apple IPhone 13 Pro, Apple IPhone 13 Pro Max",Камера основна без лідару,0,,,
 U.008.000-016,"Apple IPhone 13 Pro, Apple IPhone 14 Pro",АКБ без калібрування,9,8.51,ocapro,8.51$ ocapro (Опт — Акумулятор iPhone 14 pro ORIG Банка 3200 mAh стандартна ємність) | 9.17$ ocapro (Роздріб — Акумулятор iPhone 14 pro ORIG Банка 3200 mAh стандартна ємність) | 9.64$ ocapro (Опт — Акумулятор iPhone 14 Pro ORIG Банка підвищена ємність 3490 mAh (Logo)) | 9.88$ ocapro (Опт — Акумулятор iPhone 14 Pro ORIG Банка підвищена ємність 3490 mAh) | 10.0$ icracked (Банка (АКБ без контроллера)) | 10.32$ ocapro (Роздріб — Акумулятор iPhone 14 Pro ORIG Банка підвищена ємність 3490 mAh (Logo)) | 10.58$ ocapro (Роздріб — Акумулятор iPhone 14 Pro ORIG Банка підвищена ємність 3490 mAh) | 19.0$ icracked (Стандарт 🔄 вживана деталь 100% - 0 циклів) | 19.0$ icracked (Посилена 💪🏼 + лого🍏 🔄 вживана деталь 100% - 0 циклів)
@@ -327,6 +328,7 @@ U.049.000-023,Apple IPhone 14 Pro Max,Проклейка для ДМ,0,,,
 U.049.000-024,Apple IPhone 14 Pro Max,Проклейка для ДМ,0,,,
 U.027.000-014,Apple IPhone 14 Pro Max,Камера фронтальна з FaceID,0,,,
 U.154.000-007,Apple IPhone 14 Pro Max,Форма для пресу,0,,,
+U.154.000-028,Apple iPhone 13 Pro Max,Форма для пресу,0,,,
 U.086.000-002,"Apple IPhone 14 Pro, Apple IPhone 14 Pro Max",Шлейф програмування АКБ,0,,,
 U.117.000-004,"Apple IPhone 14 Pro, Apple IPhone 14 Pro Max, Apple IPhone 13 Pro, Apple IPhone 13 Pro Max",Шлейф акумулятора,4,8.93,ocapro,8.93$ ocapro (Опт — JCID Tag-On Battery Repair iPhone 13 Pro/13 Pro Max) | 9.57$ ocapro (Роздріб — JCID Tag-On Battery Repair iPhone 13 Pro/13 Pro Max) | 13.75$ ocapro (Опт — JCID Face ID Tag-On Repair iPhone 13 Pro Max) | 14.74$ ocapro (Роздріб — JCID Face ID Tag-On Repair iPhone 13 Pro Max)
 U.117.000-006,"Apple IPhone 14, Apple IPhone 14 Plus",Шлейф акумулятора,2,16.22,ocapro,16.22$ ocapro (Опт — JCID Face ID Tag-On Repair iPhone 14 Plus) | 17.37$ ocapro (Роздріб — JCID Face ID Tag-On Repair iPhone 14 Plus)
@@ -458,7 +460,9 @@ U.069.000-008,Apple IPhone 15 Pro,Шлейф верхній з датчиком 
 U.183.000-001,,Стікери,0,,,
 U.165.000-002,,Клей фотополімерний,0,,,
 U.143.000-001,Apple IPhone 15 Pro,Шлейф програмування,0,,,
+U.143.000-012,Apple iPhone 16 Pro,Шлейф програмування,0,,,
 U.143.000-005,Apple iPhone 15 Pro Max,Шлейф програмування,0,,,
+U.143.000-013,Apple iPhone 16 Pro Max,Шлейф програмування,0,,,
 U.143.000-007,,Шлейф програмування,0,,,
 U.143.000-011,,Шлейф програмування,0,,,
 U.143.000-010,,Шлейф програмування,0,,,
@@ -532,6 +536,7 @@ U.072.000-006,Apple iPhone 16 Pro,Шлейф із зарядкою та мікр
 U.074.000-005,Apple IPhone 15 Pro Max,"Шлейф зі спалахом, мікрофоном і бездротовою зарядкою",0,,,
 U.075.000-010,Apple IPhone 15 Pro Max,Шлейф кнопок гучності і вмикання,0,,,
 U.076.000-006,Apple IPhone 15 Pro Max,Шлейф модулю Bluetooth/NFC,0,,,
+U.076.000-015,Apple iPhone 15,Шлейф модулю Bluetooth/NFC,0,,,
 U.078.000-005,Apple IPhone 15 Pro Max,Шлейф модулю WiFi,0,,,
 U.079.000-008,Apple IPhone 15 Pro Max,Шлейф нижній із зарядним портом і мікрофоном,0,,,
 U.081.000-032,Apple IPhone 15 Pro Max,Кришка корпусу задня без обвісу,17,14.1,ocapro,14.1$ ocapro (Опт — Задня кришка iPhone 15 Pro Max Black Titanium (camera+frame+magnet)) | 14.1$ ocapro (Опт — Задня кришка iPhone 15 Pro Max Titanium (camera+frame+magnet)) | 14.1$ ocapro (Опт — Задня кришка iPhone 15 Pro Max White Titanium (camera+frame+magnet)) | 15.11$ ocapro (Роздріб — Задня кришка iPhone 15 Pro Max Black Titanium (camera+frame+magnet)) | 15.11$ ocapro (Роздріб — Задня кришка iPhone 15 Pro Max Titanium (camera+frame+magnet)) | 15.11$ ocapro (Роздріб — Задня кришка iPhone 15 Pro Max White Titanium (camera+frame+magnet)) | 15.28$ ocapro (Опт — Задня кришка iPhone 15 Pro Max Black Titanium BIG) | 15.28$ ocapro (Опт — Задня кришка iPhone 15 Pro Max Blue Titanium BIG) | 15.28$ ocapro (Опт — Задня кришка iPhone 15 Pro Max Titanium BIG) | 15.28$ ocapro (Опт — Задня кришка iPhone 15 Pro Max White Titanium BIG) | 15.28$ ocapro (Опт — Задня кришка iPhone 15 Pro Max Blue Titanium (camera+frame+magnet)) | 16.37$ ocapro (Роздріб — Задня кришка iPhone 15 Pro Max Black Titanium BIG) | 16.37$ ocapro (Роздріб — Задня кришка iPhone 15 Pro Max Blue Titanium BIG) | 16.37$ ocapro (Роздріб — Задня кришка iPhone 15 Pro Max Titanium BIG) | 16.37$ ocapro (Роздріб — Задня кришка iPhone 15 Pro Max White Titanium BIG) | 16.37$ ocapro (Роздріб — Задня кришка iPhone 15 Pro Max Blue Titanium (camera+frame+magnet)) | 18.0$ levelparts (𝐂кло корпусу iPhone)
@@ -1107,6 +1112,7 @@ U.063.000-004,,Разові матеріали для сепарації,0,,,
 U.071.000-001,Apple iPhone 14 Pro,Шлейф зі спалахом,0,,,
 U.071.000-002,Apple iPhone 14 Pro Max,Шлейф зі спалахом,0,,,
 U.071.000-010,Apple iPhone 13 Pro Max,Шлейф зі спалахом,0,,,
+U.071.000-011,Apple iPhone 13 Pro,Шлейф зі спалахом,0,,,
 U.071.000-003,Apple iPhone 15 Pro,Шлейф зі спалахом,0,,,
 U.071.000-004,Apple iPhone 15 Pro Max,Шлейф зі спалахом,0,,,
 U.071.000-005,Apple iPhone 16 Pro,Шлейф зі спалахом,0,,,
