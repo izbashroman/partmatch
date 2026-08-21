@@ -33,27 +33,27 @@ icracked,IPHONE XS,АКБ без калібрування,6.0,USD,Банка (А
 icracked,IPHONE XR,АКБ без калібрування,5.5,USD,Банка (АКБ без контроллера)
 icracked,IPHONE SE 3 (2022),АКБ без калібрування,5.0,USD,Банка (АКБ без контроллера)
 icracked,IPHONE SE 2 (2020),АКБ без калібрування,4.6,USD,Банка (АКБ без контроллера)
-refparts,IPHONE 17 PRO MAX,Рамка дисплейного модулю,3.7,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max
-refparts,IPHONE 17 PRO MAX,Рамка дисплейного модулю,3.75,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max
-refparts,IPHONE 17 PRO MAX,Рамка дисплейного модулю,3.8,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max
+refparts,IPHONE 17 PRO MAX,Витратні матеріали для монтажу,3.7,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max з проклейкою
+refparts,IPHONE 17 PRO MAX,Витратні матеріали для монтажу,3.75,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max з проклейкою
+refparts,IPHONE 17 PRO MAX,Витратні матеріали для монтажу,3.8,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max з проклейкою
 refparts,IPHONE 17 PRO MAX,,14.7,USD,Форма для скла iPhone 17 Pro Max металева зелена
 refparts,IPHONE 17 PRO MAX,,14.9,USD,Форма для скла iPhone 17 Pro Max металева зелена
 refparts,IPHONE 17 PRO MAX,,15.1,USD,Форма для скла iPhone 17 Pro Max металева зелена
 refparts,IPHONE 17 PRO MAX,,21.8,USD,Форма-тримач рамок iPhone 17 Pro Max металева зелена
 refparts,IPHONE 17 PRO MAX,,22.2,USD,Форма-тримач рамок iPhone 17 Pro Max металева зелена
 refparts,IPHONE 17 PRO MAX,,22.6,USD,Форма-тримач рамок iPhone 17 Pro Max металева зелена
-refparts,IPHONE 17 PRO,Рамка дисплейного модулю,3.7,USD,Рамка дисплея G+OCA pro iPhone 17 Pro
-refparts,IPHONE 17 PRO,Рамка дисплейного модулю,3.75,USD,Рамка дисплея G+OCA pro iPhone 17 Pro
-refparts,IPHONE 17 PRO,Рамка дисплейного модулю,3.8,USD,Рамка дисплея G+OCA pro iPhone 17 Pro
+refparts,IPHONE 17 PRO,Витратні матеріали для монтажу,3.7,USD,Рамка дисплея G+OCA pro iPhone 17 Pro з проклейкою
+refparts,IPHONE 17 PRO,Витратні матеріали для монтажу,3.75,USD,Рамка дисплея G+OCA pro iPhone 17 Pro з проклейкою
+refparts,IPHONE 17 PRO,Витратні матеріали для монтажу,3.8,USD,Рамка дисплея G+OCA pro iPhone 17 Pro з проклейкою
 refparts,IPHONE 17 PRO,,14.7,USD,Форма для скла iPhone 17 Pro металева зелена
 refparts,IPHONE 17 PRO,,14.9,USD,Форма для скла iPhone 17 Pro металева зелена
 refparts,IPHONE 17 PRO,,15.1,USD,Форма для скла iPhone 17 Pro металева зелена
 refparts,IPHONE 17 PRO,,21.8,USD,Форма-тримач рамок iPhone 17 Pro металева зелена
 refparts,IPHONE 17 PRO,,22.2,USD,Форма-тримач рамок iPhone 17 Pro металева зелена
 refparts,IPHONE 17 PRO,,22.6,USD,Форма-тримач рамок iPhone 17 Pro металева зелена
-refparts,IPHONE 17,Рамка дисплейного модулю,3.7,USD,Рамка дисплея G+OCA pro iPhone 17
-refparts,IPHONE 17,Рамка дисплейного модулю,3.75,USD,Рамка дисплея G+OCA pro iPhone 17
-refparts,IPHONE 17,Рамка дисплейного модулю,3.8,USD,Рамка дисплея G+OCA pro iPhone 17
+refparts,IPHONE 17,Витратні матеріали для монтажу,3.7,USD,Рамка дисплея G+OCA pro iPhone 17 з проклейкою
+refparts,IPHONE 17,Витратні матеріали для монтажу,3.75,USD,Рамка дисплея G+OCA pro iPhone 17 з проклейкою
+refparts,IPHONE 17,Витратні матеріали для монтажу,3.8,USD,Рамка дисплея G+OCA pro iPhone 17 з проклейкою
 refparts,IPHONE 17,,14.7,USD,Форма для скла iPhone 17 металева зелена
 refparts,IPHONE 17,,14.9,USD,Форма для скла iPhone 17 металева зелена
 refparts,IPHONE 17,,15.1,USD,Форма для скла iPhone 17 металева зелена
@@ -707,36 +707,78 @@ levelparts,IPHONE 11 PRO MAX,,36.4,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
 levelparts,IPHONE 12,,21.5,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 12,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 12 PRO,,41.8,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 12 PRO,,0.5,USD,Проклейка LCD/BC (рожева)
+levelparts,IPHONE 12 MINI,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 12 PRO MAX,,43.3,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 12 PRO MAX,,0.5,USD,Проклейка LCD/BC (рожева)
+levelparts,IPHONE 13 MINI,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 13,,21.4,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 13,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 13 PRO,,42.8,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 13 PRO,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 13 PRO MAX,,43.6,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 13 PRO MAX,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 14,,14.4,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
 levelparts,IPHONE 14,Кришка корпусу задня без обвісу,9.5,USD,𝐂кло корпусу iPhone
+levelparts,IPHONE 14,,0.5,USD,Проклейка LCD/BC (рожева)
+levelparts,IPHONE 14 PLUS,Кришка корпусу задня без обвісу,9.5,USD,𝐂кло корпусу iPhone
+levelparts,IPHONE 14 PLUS,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 14 PRO,,45.9,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 14 PRO,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 14 PRO MAX,,47.3,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 14 PRO MAX,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 15,,16.1,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 15,,0.5,USD,Проклейка LCD/BC (рожева)
+levelparts,IPHONE 15 PLUS,,16.1,USD,"𝐊орпус iPhone
+(Якість оригінал 1:1)"
+levelparts,IPHONE 15 PLUS,Кришка корпусу задня без обвісу,12.0,USD,𝐂кло корпусу iPhone
+levelparts,IPHONE 15 PLUS,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 15 PRO,,35.3,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 15 PRO,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 15 PRO MAX,,38.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 15 PRO MAX,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 16,,18.7,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
 levelparts,IPHONE 16,Кришка корпусу задня без обвісу,13.0,USD,𝐂кло корпусу iPhone
+levelparts,IPHONE 16,,0.5,USD,Проклейка LCD/BC (рожева)
 levelparts,IPHONE 16 PLUS,,18.7,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
 levelparts,IPHONE 16 PLUS,Кришка корпусу задня без обвісу,13.0,USD,𝐂кло корпусу iPhone
+levelparts,IPHONE 16 PLUS,,0.5,USD,Проклейка LCD/BC (рожева)
+levelparts,IPHONE 16 PRO,,39.0,USD,"𝐊орпус iPhone
+(Якість оригінал 1:1)"
+levelparts,IPHONE 16 PRO,,0.5,USD,Проклейка LCD/BC (рожева)
+levelparts,IPHONE 16 PRO MAX,,39.0,USD,"𝐊орпус iPhone
+(Якість оригінал 1:1)"
 levelparts,IPHONE 16 PRO MAX,Кришка корпусу задня без обвісу,19.0,USD,𝐂кло корпусу iPhone
+levelparts,IPHONE 16 PRO MAX,,0.5,USD,Проклейка LCD/BC (рожева)
+levelparts,IPHONE 17,,32.0,USD,"𝐊орпус iPhone
+(Якість оригінал 1:1)"
+levelparts,IPHONE 17,Кришка корпусу задня без обвісу,13.5,USD,𝐂кло корпусу iPhone
+levelparts,IPHONE 17,,0.5,USD,Проклейка LCD/BC (рожева)
+levelparts,IPHONE 17 AIR,Кришка корпусу задня без обвісу,78.0,USD,𝐂кло корпусу iPhone
+levelparts,IPHONE 17 AIR,,0.5,USD,Проклейка LCD/BC (рожева)
+levelparts,IPHONE 17 PRO,,48.0,USD,"𝐊орпус iPhone
+(Якість оригінал 1:1)"
+levelparts,IPHONE 17 PRO,Кришка корпусу задня без обвісу,6.0,USD,𝐂кло корпусу iPhone
+levelparts,IPHONE 17 PRO,,0.5,USD,Проклейка LCD/BC (рожева)
+levelparts,IPHONE 17 PRO MAX,,48.0,USD,"𝐊орпус iPhone
+(Якість оригінал 1:1)"
+levelparts,IPHONE 17 PRO MAX,Кришка корпусу задня без обвісу,6.0,USD,𝐂кло корпусу iPhone
+levelparts,IPHONE 17 PRO MAX,,0.5,USD,Проклейка LCD/BC (рожева)
 uparts,,Витратні матеріали для монтажу,1.3,USD,"Клей-Герметик B7000, Универсальный, Прозрачный, 15 мл"
 uparts,,Витратні матеріали для монтажу,3.1,USD,"Клей-Герметик B7000, Универсальный, Прозрачный, 110 мл"
 uparts,,Витратні матеріали для монтажу,3.0,USD,Клей силиконовый T-7000 черный 110мл с дозатором
