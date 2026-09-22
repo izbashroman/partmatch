@@ -39,9 +39,9 @@ icracked,IPHONE XS,АКБ без калібрування,4.5,USD,Банка (А
 icracked,IPHONE XR,АКБ без калібрування,3.8,USD,Банка (АКБ без контроллера)
 icracked,IPHONE SE 3 (2022),АКБ без калібрування,5.0,USD,Банка (АКБ без контроллера)
 icracked,IPHONE SE 2 (2020),АКБ без калібрування,4.6,USD,Банка (АКБ без контроллера)
-refparts,IPHONE 17 PRO MAX,Витратні матеріали для монтажу,3.7,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max з проклейкою
-refparts,IPHONE 17 PRO MAX,Витратні матеріали для монтажу,3.75,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max з проклейкою
-refparts,IPHONE 17 PRO MAX,Витратні матеріали для монтажу,3.8,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max з проклейкою
+refparts,IPHONE 17 PRO MAX,Рамка дисплейного модулю,3.7,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max
+refparts,IPHONE 17 PRO MAX,Рамка дисплейного модулю,3.75,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max
+refparts,IPHONE 17 PRO MAX,Рамка дисплейного модулю,3.8,USD,Рамка дисплея G+OCA pro iPhone 17 Pro Max
 refparts,IPHONE 17 PRO MAX,,14.7,USD,Форма для скла iPhone 17 Pro Max металева зелена
 refparts,IPHONE 17 PRO MAX,,14.9,USD,Форма для скла iPhone 17 Pro Max металева зелена
 refparts,IPHONE 17 PRO MAX,,15.1,USD,Форма для скла iPhone 17 Pro Max металева зелена
@@ -57,9 +57,9 @@ refparts,IPHONE 17 PRO,,15.1,USD,Форма для скла iPhone 17 Pro мет
 refparts,IPHONE 17 PRO,,21.8,USD,Форма-тримач рамок iPhone 17 Pro металева зелена
 refparts,IPHONE 17 PRO,,22.2,USD,Форма-тримач рамок iPhone 17 Pro металева зелена
 refparts,IPHONE 17 PRO,,22.6,USD,Форма-тримач рамок iPhone 17 Pro металева зелена
-refparts,IPHONE 17,Витратні матеріали для монтажу,3.7,USD,Рамка дисплея G+OCA pro iPhone 17 з проклейкою
-refparts,IPHONE 17,Витратні матеріали для монтажу,3.75,USD,Рамка дисплея G+OCA pro iPhone 17 з проклейкою
-refparts,IPHONE 17,Витратні матеріали для монтажу,3.8,USD,Рамка дисплея G+OCA pro iPhone 17 з проклейкою
+refparts,IPHONE 17,Рамка дисплейного модулю,3.7,USD,Рамка дисплея G+OCA pro iPhone 17
+refparts,IPHONE 17,Рамка дисплейного модулю,3.75,USD,Рамка дисплея G+OCA pro iPhone 17
+refparts,IPHONE 17,Рамка дисплейного модулю,3.8,USD,Рамка дисплея G+OCA pro iPhone 17
 refparts,IPHONE 17,,14.7,USD,Форма для скла iPhone 17 металева зелена
 refparts,IPHONE 17,,14.9,USD,Форма для скла iPhone 17 металева зелена
 refparts,IPHONE 17,,15.1,USD,Форма для скла iPhone 17 металева зелена
@@ -75,9 +75,9 @@ refparts,IPHONE 17 AIR,Скло дисплейного модулю,3.5,USD,Ск
 refparts,IPHONE 17 AIR,Скло дисплейного модулю,2.6,USD,Скло+ОСА G+OCA pro iPhone 17 Air
 refparts,IPHONE 17 AIR,Скло дисплейного модулю,2.65,USD,Скло+ОСА G+OCA pro iPhone 17 Air
 refparts,IPHONE 17 AIR,Скло дисплейного модулю,2.7,USD,Скло+ОСА G+OCA pro iPhone 17 Air
-refparts,IPHONE 17 AIR,Скло дисплейного модулю,3.0,USD,Скло+ОСА MUSTTBY iPhone 17 Air
-refparts,IPHONE 17 AIR,Скло дисплейного модулю,3.05,USD,Скло+ОСА MUSTTBY iPhone 17 Air
-refparts,IPHONE 17 AIR,Скло дисплейного модулю,3.1,USD,Скло+ОСА MUSTTBY iPhone 17 Air
+refparts,IPHONE 17 AIR,Скло дисплейного модулю,2.6,USD,Скло+ОСА MUSTTBY iPhone 17 Air
+refparts,IPHONE 17 AIR,Скло дисплейного модулю,2.6,USD,Скло+ОСА MUSTTBY iPhone 17 Air
+refparts,IPHONE 17 AIR,Скло дисплейного модулю,2.6,USD,Скло+ОСА MUSTTBY iPhone 17 Air
 refparts,IPHONE 17 AIR,,14.7,USD,Форма для скла iPhone 17 Air металева зелена
 refparts,IPHONE 17 AIR,,14.9,USD,Форма для скла iPhone 17 Air металева зелена
 refparts,IPHONE 17 AIR,,15.1,USD,Форма для скла iPhone 17 Air металева зелена
@@ -333,9 +333,9 @@ refparts,IPHONE 13 MINI,Скло дисплейного модулю,2.2,USD,С�
 refparts,IPHONE 13 MINI,Скло дисплейного модулю,2.15,USD,Скло+ОСА G+OCA pro iPhone 13 mini
 refparts,IPHONE 13 MINI,Скло дисплейного модулю,2.2,USD,Скло+ОСА G+OCA pro iPhone 13 mini
 refparts,IPHONE 13 MINI,Скло дисплейного модулю,2.25,USD,Скло+ОСА G+OCA pro iPhone 13 mini
-refparts,IPHONE 13 MINI,Скло дисплейного модулю,1.8,USD,Скло+ОСА MUSTTBY iPhone 13 mini
-refparts,IPHONE 13 MINI,Скло дисплейного модулю,1.85,USD,Скло+ОСА MUSTTBY iPhone 13 mini
-refparts,IPHONE 13 MINI,Скло дисплейного модулю,1.9,USD,Скло+ОСА MUSTTBY iPhone 13 mini
+refparts,IPHONE 13 MINI,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 13 mini
+refparts,IPHONE 13 MINI,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 13 mini
+refparts,IPHONE 13 MINI,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 13 mini
 refparts,IPHONE 13 MINI,,7.4,USD,Форма для скла iPhone 13 mini
 refparts,IPHONE 13 MINI,,7.5,USD,Форма для скла iPhone 13 mini
 refparts,IPHONE 13 MINI,,7.6,USD,Форма для скла iPhone 13 mini
@@ -369,9 +369,9 @@ refparts,IPHONE 12 PRO MAX,Скло дисплейного модулю,2.35,USD
 refparts,IPHONE 12 PRO MAX,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone 12 Pro Max під оригінал
 refparts,IPHONE 12 PRO MAX,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone 12 Pro Max під оригінал
 refparts,IPHONE 12 PRO MAX,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone 12 Pro Max під оригінал
-refparts,IPHONE 12 PRO MAX,Скло дисплейного модулю,2.0,USD,Скло+ОСА MUSTTBY iPhone 12 Pro Max
-refparts,IPHONE 12 PRO MAX,Скло дисплейного модулю,2.05,USD,Скло+ОСА MUSTTBY iPhone 12 Pro Max
-refparts,IPHONE 12 PRO MAX,Скло дисплейного модулю,2.1,USD,Скло+ОСА MUSTTBY iPhone 12 Pro Max
+refparts,IPHONE 12 PRO MAX,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 12 Pro Max
+refparts,IPHONE 12 PRO MAX,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 12 Pro Max
+refparts,IPHONE 12 PRO MAX,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 12 Pro Max
 refparts,IPHONE 12 PRO MAX,,3.9,USD,Скло+тач+ОСА iPhone 12 Pro Max під оригінал без чіпа
 refparts,IPHONE 12 PRO MAX,,3.9,USD,Скло+тач+ОСА iPhone 12 Pro Max під оригінал без чіпа
 refparts,IPHONE 12 PRO MAX,,3.9,USD,Скло+тач+ОСА iPhone 12 Pro Max під оригінал без чіпа
@@ -438,9 +438,9 @@ refparts,IPHONE 12 MINI,Скло дисплейного модулю,2.15,USD,С
 refparts,IPHONE 12 MINI,Скло дисплейного модулю,2.1,USD,Скло+ОСА G+OCA pro iPhone 12 mini
 refparts,IPHONE 12 MINI,Скло дисплейного модулю,2.15,USD,Скло+ОСА G+OCA pro iPhone 12 mini
 refparts,IPHONE 12 MINI,Скло дисплейного модулю,2.2,USD,Скло+ОСА G+OCA pro iPhone 12 mini
-refparts,IPHONE 12 MINI,Скло дисплейного модулю,1.8,USD,Скло+ОСА MUSTTBY iPhone 12 mini
-refparts,IPHONE 12 MINI,Скло дисплейного модулю,1.85,USD,Скло+ОСА MUSTTBY iPhone 12 mini
-refparts,IPHONE 12 MINI,Скло дисплейного модулю,1.9,USD,Скло+ОСА MUSTTBY iPhone 12 mini
+refparts,IPHONE 12 MINI,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 12 mini
+refparts,IPHONE 12 MINI,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 12 mini
+refparts,IPHONE 12 MINI,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 12 mini
 refparts,IPHONE 12 MINI,,8.1,USD,Форма для скла iPhone 12 mini
 refparts,IPHONE 12 MINI,,8.2,USD,Форма для скла iPhone 12 mini
 refparts,IPHONE 12 MINI,,8.3,USD,Форма для скла iPhone 12 mini
@@ -465,9 +465,9 @@ refparts,IPHONE 11 PRO MAX,Скло дисплейного модулю,1.9,USD,
 refparts,IPHONE 11 PRO MAX,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone 11 Pro Max під оригінал
 refparts,IPHONE 11 PRO MAX,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone 11 Pro Max під оригінал
 refparts,IPHONE 11 PRO MAX,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone 11 Pro Max під оригінал
-refparts,IPHONE 11 PRO MAX,Скло дисплейного модулю,1.9,USD,Скло+ОСА MUSTTBY iPhone 11 Pro Max
-refparts,IPHONE 11 PRO MAX,Скло дисплейного модулю,1.95,USD,Скло+ОСА MUSTTBY iPhone 11 Pro Max
-refparts,IPHONE 11 PRO MAX,Скло дисплейного модулю,2.0,USD,Скло+ОСА MUSTTBY iPhone 11 Pro Max
+refparts,IPHONE 11 PRO MAX,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 11 Pro Max
+refparts,IPHONE 11 PRO MAX,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 11 Pro Max
+refparts,IPHONE 11 PRO MAX,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone 11 Pro Max
 refparts,IPHONE 11 PRO MAX,,3.9,USD,Скло+тач iPhone 11 Pro Max під оригінал
 refparts,IPHONE 11 PRO MAX,,3.9,USD,Скло+тач iPhone 11 Pro Max під оригінал
 refparts,IPHONE 11 PRO MAX,,3.9,USD,Скло+тач iPhone 11 Pro Max під оригінал
@@ -561,9 +561,9 @@ refparts,IPHONE XS MAX,Скло дисплейного модулю,1.95,USD,С�
 refparts,IPHONE XS MAX,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone ХS Max під оригінал
 refparts,IPHONE XS MAX,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone ХS Max під оригінал
 refparts,IPHONE XS MAX,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone ХS Max під оригінал
-refparts,IPHONE XS MAX,Скло дисплейного модулю,1.9,USD,Скло+ОСА MUSTTBY iPhone XS Max
-refparts,IPHONE XS MAX,Скло дисплейного модулю,1.95,USD,Скло+ОСА MUSTTBY iPhone XS Max
-refparts,IPHONE XS MAX,Скло дисплейного модулю,2.0,USD,Скло+ОСА MUSTTBY iPhone XS Max
+refparts,IPHONE XS MAX,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone XS Max
+refparts,IPHONE XS MAX,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone XS Max
+refparts,IPHONE XS MAX,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone XS Max
 refparts,IPHONE XS MAX,,3.9,USD,Скло+тач iPhone ХS Max під оригінал
 refparts,IPHONE XS MAX,,3.9,USD,Скло+тач iPhone ХS Max під оригінал
 refparts,IPHONE XS MAX,,3.9,USD,Скло+тач iPhone ХS Max під оригінал
@@ -645,9 +645,9 @@ refparts,IPHONE XS,Скло дисплейного модулю,0.7,USD,Скло
 refparts,IPHONE XS,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone ХS під оригінал
 refparts,IPHONE XS,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone ХS під оригінал
 refparts,IPHONE XS,Скло дисплейного модулю,0.7,USD,Скло+ОСА iPhone ХS під оригінал
-refparts,IPHONE XS,Скло дисплейного модулю,1.75,USD,Скло+ОСА MUSTTBY iPhone Х/ XS
-refparts,IPHONE XS,Скло дисплейного модулю,1.8,USD,Скло+ОСА MUSTTBY iPhone Х/ XS
-refparts,IPHONE XS,Скло дисплейного модулю,1.85,USD,Скло+ОСА MUSTTBY iPhone Х/ XS
+refparts,IPHONE XS,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone Х/ XS
+refparts,IPHONE XS,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone Х/ XS
+refparts,IPHONE XS,Скло дисплейного модулю,1.5,USD,Скло+ОСА MUSTTBY iPhone Х/ XS
 refparts,IPHONE XS,,3.9,USD,Скло+тач iPhone ХS під оригінал
 refparts,IPHONE XS,,3.9,USD,Скло+тач iPhone ХS під оригінал
 refparts,IPHONE XS,,3.9,USD,Скло+тач iPhone ХS під оригінал
@@ -993,7 +993,7 @@ uparts,,,35.0,USD,Калибратор i2C KC03
 uparts,,,21.5,USD,Тестер разъемов питания QIANLI iBridge A3
 uparts,,,6.5,USD,"USB-тестер для измерения ёмкости,тока,времени (KWS-066C)"
 uparts,,,23.0,USD,УФ лампа QianLi Intelligente UV Curing Lamp
-uparts,,АКБ з калібруванням,11.0,USD,Лампа ультрафіолетова Mechanic UV L1 Pro Curing Lamp (з акумулятором)
+uparts,,АКБ з калібруванням,12.0,USD,Лампа ультрафіолетова Mechanic UV L1 Pro Curing Lamp (з акумулятором)
 uparts,,,6.0,USD,Ультрафіолетова лампа Mayuan MY-38
 uparts,,,113.0,USD,Ультрафіолетова лампа NJLD LD-29-2
 uparts,,,6.0,USD,Кабеля для блоков питания SUNSHINE SS-905F Android
