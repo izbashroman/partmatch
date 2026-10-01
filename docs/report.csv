@@ -9,7 +9,7 @@ U.019.000-011,Apple IPhone 11,Шлейф з датчиком наближенн�
 U.019.000-010,Apple IPhone 11 Pro,Шлейф з датчиком наближення,0,,,
 U.061.000-034,Apple IPhone 11 Pro,Скло дисплейного модулю,9,1.8,refparts,1.8$ refparts (Великий опт — Скло+ОСА G+OCA pro iPhone 11 Pro) | 1.8$ refparts (Великий опт — Скло+ОСА MUSTTBY iPhone 11 Pro) | 1.85$ refparts (Середній опт — Скло+ОСА G+OCA pro iPhone 11 Pro) | 1.85$ refparts (Середній опт — Скло+ОСА MUSTTBY iPhone 11 Pro) | 1.9$ refparts (Дрібний опт — Скло+ОСА G+OCA pro iPhone 11 Pro) | 1.9$ refparts (Дрібний опт — Скло+ОСА MUSTTBY iPhone 11 Pro) | 2.1$ refparts (Великий опт — Скло+ОСА Feaglet iPhone 11 Pro) | 2.15$ refparts (Середній опт — Скло+ОСА Feaglet iPhone 11 Pro) | 2.2$ refparts (Дрібний опт — Скло+ОСА Feaglet iPhone 11 Pro)
 U.061.000-036,Apple IPhone 12,Скло дисплейного модулю,0,,,
-U.061.000-033,Apple IPhone 12 Pro,Скло дисплейного модулю,9,1.8,refparts,1.8$ refparts (Великий опт — Скло+ОСА MUSTTBY iPhone 12/ 12 Pro) | 1.85$ refparts (Середній опт — Скло+ОСА MUSTTBY iPhone 12/ 12 Pro) | 1.9$ refparts (Дрібний опт — Скло+ОСА MUSTTBY iPhone 12/ 12 Pro) | 2.15$ refparts (Великий опт — Скло+ОСА G+OCA pro iPhone 12/ 12 Pro) | 2.2$ refparts (Середній опт — Скло+ОСА G+OCA pro iPhone 12/ 12 Pro) | 2.25$ refparts (Дрібний опт — Скло+ОСА G+OCA pro iPhone 12/ 12 Pro) | 2.55$ refparts (Великий опт — Скло+ОСА Feaglet iPhone 12/ 12 Pro) | 2.6$ refparts (Середній опт — Скло+ОСА Feaglet iPhone 12/ 12 Pro) | 2.65$ refparts (Дрібний опт — Скло+ОСА Feaglet iPhone 12/ 12 Pro)
+U.061.000-033,Apple IPhone 12 Pro,Скло дисплейного модулю,6,2.15,refparts,2.15$ refparts (Великий опт — Скло+ОСА G+OCA pro iPhone 12/ 12 Pro) | 2.2$ refparts (Середній опт — Скло+ОСА G+OCA pro iPhone 12/ 12 Pro) | 2.25$ refparts (Дрібний опт — Скло+ОСА G+OCA pro iPhone 12/ 12 Pro) | 2.55$ refparts (Великий опт — Скло+ОСА Feaglet iPhone 12/ 12 Pro) | 2.6$ refparts (Середній опт — Скло+ОСА Feaglet iPhone 12/ 12 Pro) | 2.65$ refparts (Дрібний опт — Скло+ОСА Feaglet iPhone 12/ 12 Pro)
 U.061.000-065,Apple iPhone 14 Pro,Скло дисплейного модулю,12,1.9,refparts,1.9$ refparts (Великий опт — Скло+ОСА MUSTTBY iPhone 14 Pro) | 1.95$ refparts (Середній опт — Скло+ОСА MUSTTBY iPhone 14 Pro) | 2.0$ refparts (Дрібний опт — Скло+ОСА MUSTTBY iPhone 14 Pro) | 2.15$ refparts (Великий опт — Скло+ОСА G+OCA pro iPhone 14 Pro) | 2.2$ refparts (Середній опт — Скло+ОСА G+OCA pro iPhone 14 Pro) | 2.25$ refparts (Дрібний опт — Скло+ОСА G+OCA pro iPhone 14 Pro) | 2.5$ refparts (Великий опт — Скло+ОСА+поляр G+OCA pro iPhone 14 Pro) | 2.55$ refparts (Середній опт — Скло+ОСА+поляр G+OCA pro iPhone 14 Pro) | 2.6$ refparts (Дрібний опт — Скло+ОСА+поляр G+OCA pro iPhone 14 Pro) | 2.9$ refparts (Великий опт — Скло+ОСА Feaglet iPhone 14 Pro) | 2.95$ refparts (Середній опт — Скло+ОСА Feaglet iPhone 14 Pro) | 3.0$ refparts (Дрібний опт — Скло+ОСА Feaglet iPhone 14 Pro)
 U.199.000-001,,Скло захисне,0,,,
 U.101.000-001,"Apple IPhone 12 Pro Max, Apple IPhone 13 Pro Max, Apple IPhone 14 Pro Max, Apple IPhone 14 Plus",Плівка дисплею смартфону захисна,0,,,
@@ -87,7 +87,7 @@ U.014.000-009,Apple iPhone 13,Вібро-мотор,0,,,
 U.019.000-009,Apple IPhone 13 Pro,Шлейф з датчиком наближення,0,,,
 U.020.000-007,Apple IPhone 13 Pro,Датчик освітелння,0,,,
 U.021.000-002,Apple IPhone 13 Pro,Динамік верхній (Speaker),0,,,
-U.021.000-026,,Динамік верхній (Speaker),0,,,
+U.021.000-026,Apple iPhone 13,Динамік верхній (Speaker),0,,,
 U.022.000-002,Apple IPhone 13 Pro,Динамік нижній (Buzzer),0,,,
 U.023.000-038,Apple IPhone 13 Pro,Дисплейний модуль,0,,,
 U.023.000-002,Apple IPhone 13 Pro,Дисплейний модуль,0,,,
@@ -96,7 +96,7 @@ U.026.000-019,Apple IPhone 13 Pro,Камера основна з лідаром,
 U.035.000-008,Apple IPhone 13 Pro,Комплект скла основної камери,0,,,
 U.049.000-025,Apple IPhone 13 Pro,Проклейка для ДМ,0,,,
 U.049.000-028,Apple iPhone 13 Pro Max,Проклейка для ДМ,0,,,
-U.049.000-033,,Проклейка для ДМ,0,,,
+U.049.000-033,Apple iPhone 13,Проклейка для ДМ,0,,,
 U.066.000-008,Apple IPhone 13 Pro,Чіп захисту ДМ,0,,,
 U.074.000-008,Apple IPhone 13 Pro,"Шлейф зі спалахом, мікрофоном і бездротовою зарядкою",0,,,
 U.075.000-003,Apple IPhone 13 Pro,Шлейф кнопок гучності і вмикання,0,,,
@@ -469,7 +469,7 @@ U.042.000-005,Apple IPhone 15 Pro,Датчик лідар,0,,,
 U.048.000-001,Apple IPhone 15 Pro,Проклейка для АКБ,0,,,
 U.049.000-003,Apple IPhone 15 Pro,Проклейка для ДМ,0,,,
 U.049.000-008,Apple IPhone 15 Pro,Проклейка для ДМ,0,,,
-U.049.000-036,,Проклейка для ДМ,0,,,
+U.049.000-036,Apple iPhone 15,Проклейка для ДМ,0,,,
 U.050.000-002,Apple IPhone 15 Pro,Проклейка корпусна,0,,,
 U.061.000-005,Apple IPhone 15 Pro,Скло дисплейного модулю,12,2.3,refparts,2.3$ refparts (Великий опт — Скло+ОСА G+OCA pro iPhone 15 Pro) | 2.3$ refparts (Великий опт — Скло+ОСА MUSTTBY iPhone 15 Pro) | 2.35$ refparts (Середній опт — Скло+ОСА G+OCA pro iPhone 15 Pro) | 2.35$ refparts (Середній опт — Скло+ОСА MUSTTBY iPhone 15 Pro) | 2.4$ refparts (Дрібний опт — Скло+ОСА G+OCA pro iPhone 15 Pro) | 2.4$ refparts (Дрібний опт — Скло+ОСА MUSTTBY iPhone 15 Pro) | 2.7$ refparts (Великий опт — Скло+ОСА+поляр G+OCA pro iPhone 15 Pro) | 2.75$ refparts (Середній опт — Скло+ОСА+поляр G+OCA pro iPhone 15 Pro) | 2.8$ refparts (Дрібний опт — Скло+ОСА+поляр G+OCA pro iPhone 15 Pro) | 3.35$ refparts (Великий опт — Скло+ОСА Feaglet iPhone 15 Pro) | 3.4$ refparts (Середній опт — Скло+ОСА Feaglet iPhone 15 Pro) | 3.45$ refparts (Дрібний опт — Скло+ОСА Feaglet iPhone 15 Pro)
 U.061.000-021,Apple IPhone 15 Pro,Скло дисплейного модулю,12,2.3,refparts,2.3$ refparts (Великий опт — Скло+ОСА G+OCA pro iPhone 15 Pro) | 2.3$ refparts (Великий опт — Скло+ОСА MUSTTBY iPhone 15 Pro) | 2.35$ refparts (Середній опт — Скло+ОСА G+OCA pro iPhone 15 Pro) | 2.35$ refparts (Середній опт — Скло+ОСА MUSTTBY iPhone 15 Pro) | 2.4$ refparts (Дрібний опт — Скло+ОСА G+OCA pro iPhone 15 Pro) | 2.4$ refparts (Дрібний опт — Скло+ОСА MUSTTBY iPhone 15 Pro) | 2.7$ refparts (Великий опт — Скло+ОСА+поляр G+OCA pro iPhone 15 Pro) | 2.75$ refparts (Середній опт — Скло+ОСА+поляр G+OCA pro iPhone 15 Pro) | 2.8$ refparts (Дрібний опт — Скло+ОСА+поляр G+OCA pro iPhone 15 Pro) | 3.35$ refparts (Великий опт — Скло+ОСА Feaglet iPhone 15 Pro) | 3.4$ refparts (Середній опт — Скло+ОСА Feaglet iPhone 15 Pro) | 3.45$ refparts (Дрібний опт — Скло+ОСА Feaglet iPhone 15 Pro)
@@ -526,6 +526,13 @@ U.131.000-008,Apple iPhone 15 Pro Max,Шлейф фронтальної каме
 U.008.000-007,Apple IPhone 15 Pro Max,АКБ без калібрування,4,10.0,icracked,10.0$ icracked (Банка (АКБ без контроллера)) | 19.0$ icracked (Стандарт 🔄 вживана деталь 100% - 0 циклів) | 20.0$ icracked (Посилена 🔄 вживана деталь 100% - 0 циклів) | 22.0$ icracked (Посилена 💪🏼 + лого🍏 🔄 вживана деталь 100% - 0 циклів)
 U.009.000-073,Apple IPhone 15 Pro Max,АКБ з калібруванням,1,38.0,icracked,38.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.009.000-074,Apple IPhone 15 Pro Max,АКБ з калібруванням,1,38.0,icracked,38.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-094,Apple iPhone 15 Pro,АКБ з калібруванням,1,36.0,icracked,36.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-095,Apple iPhone 15,АКБ з калібруванням,1,30.0,icracked,30.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-096,Apple iPhone 14 Pro Max,АКБ з калібруванням,2,27.3,uparts,27.3$ uparts (Ціна — Кабели с платой активации QianLi iPower Pro Max 7th V2.2 для подключения плат и АКБ iPhone 6 - 14 Pro Max) | 37.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-097,Apple iPhone 14 Pro,АКБ з калібруванням,1,35.0,icracked,35.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-098,Apple iPhone 13 Pro Max,АКБ з калібруванням,1,36.0,icracked,36.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-099,Apple iPhone 13 Pro,АКБ з калібруванням,1,33.0,icracked,33.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-100,Apple iPhone 13,АКБ з калібруванням,1,29.0,icracked,29.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.009.000-007,Apple IPhone 15 Pro Max,АКБ з калібруванням,1,38.0,icracked,38.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.009.000-008,Apple IPhone 15 Pro Max,АКБ з калібруванням,1,38.0,icracked,38.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.009.000-015,Apple IPhone 15 Pro Max,АКБ з калібруванням,1,38.0,icracked,38.0$ icracked (Посилена 💪🏼З лого🍏 Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
@@ -1146,6 +1153,9 @@ U.022.000-017,Samsung Galaxy S23 Ultra,Динамік нижній (Buzzer),0,,,
 U.021.000-019,Samsung Galaxy S23 Ultra,Динамік верхній (Speaker),0,,,
 U.148.000-002,Samsung Galaxy S23 Ultra,Шлейф дисплея,0,,,
 U.009.000-086,Samsung Galaxy S23 Ultra 5G,АКБ з калібруванням,0,,,
+U.009.000-102,,АКБ з калібруванням,0,,,
+U.009.000-103,,АКБ з калібруванням,0,,,
+U.009.000-104,,АКБ з калібруванням,0,,,
 U.023.000-035,Samsung Galaxy S24,Дисплейний модуль,0,,,
 U.023.000-036,Samsung Galaxy S24,Дисплейний модуль,0,,,
 U.023.000-037,Samsung Galaxy S24,Дисплейний модуль,0,,,
@@ -1500,6 +1510,7 @@ U.153.000-002,,Перехідник US/EU,0,,,
 U.163.000-003,,Жало,0,,,
 U.008.000-021,,АКБ без калібрування,0,,,
 U.009.000-093,,АКБ з калібруванням,0,,,
+U.009.000-101,,АКБ з калібруванням,0,,,
 U.068.000-007,,Шлейф бездротової зарядки,0,,,
 U.134.000-027,,Рамка корпуса,0,,,
 U.172.000-007,,Клей-герметик,0,,,
@@ -1521,3 +1532,4 @@ U.064.000-006,,Суміші для пайки,0,,,
 U.064.000-007,,Суміші для пайки,0,,,
 U.107.000-001,,АКБ для навушників,0,,,
 U.164.000-004,,Килимок для полірування,0,,,
+U.173.000-002,,Шлейф антени,0,,,
