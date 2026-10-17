@@ -715,12 +715,21 @@ levelparts,IPHONE 12 PRO MAX,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 13 MINI,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 13,,20.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 13,,17.0,USD,"𝐊орпус 
+iPhone
+(HQ)"
 levelparts,IPHONE 13,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 13 PRO,,41.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 13 PRO,,30.0,USD,"𝐊орпус 
+iPhone
+(HQ)"
 levelparts,IPHONE 13 PRO,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 13 PRO MAX,,42.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 13 PRO MAX,,30.0,USD,"𝐊орпус 
+iPhone
+(HQ)"
 levelparts,IPHONE 13 PRO MAX,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 14,,13.5,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
@@ -730,9 +739,15 @@ levelparts,IPHONE 14 PLUS,Кришка корпусу задня без обві
 levelparts,IPHONE 14 PLUS,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 14 PRO,,48.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 14 PRO,,33.0,USD,"𝐊орпус 
+iPhone
+(HQ)"
 levelparts,IPHONE 14 PRO,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 14 PRO MAX,,49.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 14 PRO MAX,,34.0,USD,"𝐊орпус 
+iPhone
+(HQ)"
 levelparts,IPHONE 14 PRO MAX,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 15,,14.5,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
@@ -741,11 +756,17 @@ levelparts,IPHONE 15 PLUS,,14.5,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
 levelparts,IPHONE 15 PLUS,Кришка корпусу задня без обвісу,9.5,USD,"𝐂кло корпусу iPhone(в зборі з склом камери(сапфір), магнітами)"
 levelparts,IPHONE 15 PLUS,,0.5,USD,Проклейка LCD/BC
-levelparts,IPHONE 15 PRO,,31.5,USD,"𝐊орпус iPhone
+levelparts,IPHONE 15 PRO,,28.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 15 PRO,,24.0,USD,"𝐊орпус 
+iPhone
+(HQ)"
 levelparts,IPHONE 15 PRO,,0.5,USD,Проклейка LCD/BC
-levelparts,IPHONE 15 PRO MAX,,32.5,USD,"𝐊орпус iPhone
+levelparts,IPHONE 15 PRO MAX,,28.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 15 PRO MAX,,24.0,USD,"𝐊орпус 
+iPhone
+(HQ)"
 levelparts,IPHONE 15 PRO MAX,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 16,,16.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
@@ -757,24 +778,30 @@ levelparts,IPHONE 16 PLUS,Кришка корпусу задня без обві
 levelparts,IPHONE 16 PLUS,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 16 PRO,,39.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
+levelparts,IPHONE 16 PRO,,30.0,USD,"𝐊орпус 
+iPhone
+(HQ)"
 levelparts,IPHONE 16 PRO,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 16 PRO MAX,,39.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
 levelparts,IPHONE 16 PRO MAX,Кришка корпусу задня без обвісу,17.0,USD,"𝐂кло корпусу iPhone(в зборі з склом камери(сапфір), магнітами)"
+levelparts,IPHONE 16 PRO MAX,,30.0,USD,"𝐊орпус 
+iPhone
+(HQ)"
 levelparts,IPHONE 16 PRO MAX,,0.5,USD,Проклейка LCD/BC
-levelparts,IPHONE 17,,32.0,USD,"𝐊орпус iPhone
+levelparts,IPHONE 17,,30.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
 levelparts,IPHONE 17,Кришка корпусу задня без обвісу,19.0,USD,"𝐂кло корпусу iPhone(в зборі з склом камери(сапфір), магнітами)"
 levelparts,IPHONE 17,,0.5,USD,Проклейка LCD/BC
-levelparts,IPHONE 17 AIR,Кришка корпусу задня без обвісу,78.0,USD,"𝐂кло корпусу iPhone(в зборі з склом камери(сапфір), магнітами)"
+levelparts,IPHONE 17 AIR,Кришка корпусу задня без обвісу,70.0,USD,"𝐂кло корпусу iPhone(в зборі з склом камери(сапфір), магнітами)"
 levelparts,IPHONE 17 AIR,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 17 PRO,,48.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
-levelparts,IPHONE 17 PRO,Кришка корпусу задня без обвісу,9.5,USD,"𝐂кло корпусу iPhone(в зборі з склом камери(сапфір), магнітами)"
+levelparts,IPHONE 17 PRO,Кришка корпусу задня без обвісу,7.0,USD,"𝐂кло корпусу iPhone(в зборі з склом камери(сапфір), магнітами)"
 levelparts,IPHONE 17 PRO,,0.5,USD,Проклейка LCD/BC
 levelparts,IPHONE 17 PRO MAX,,48.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
-levelparts,IPHONE 17 PRO MAX,Кришка корпусу задня без обвісу,9.5,USD,"𝐂кло корпусу iPhone(в зборі з склом камери(сапфір), магнітами)"
+levelparts,IPHONE 17 PRO MAX,Кришка корпусу задня без обвісу,7.0,USD,"𝐂кло корпусу iPhone(в зборі з склом камери(сапфір), магнітами)"
 levelparts,IPHONE 17 PRO MAX,,0.5,USD,Проклейка LCD/BC
 uparts,,Витратні матеріали для монтажу,1.3,USD,"Клей-Герметик B7000, Универсальный, Прозрачный, 15 мл"
 uparts,,Витратні матеріали для монтажу,2.0,USD,"Клей-Герметик B7000, Универсальный, Прозрачный, 110 мл"
