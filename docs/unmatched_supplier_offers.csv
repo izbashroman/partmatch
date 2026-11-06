@@ -10,14 +10,12 @@ icracked,IPHONE 16,АКБ без калібрування,59.0,USD,Посиле�
 icracked,IPHONE 15 PLUS,АКБ без калібрування,17.0,USD,Стандарт 🔄 вживана деталь 100% - 0 циклів
 icracked,IPHONE 15 PLUS,АКБ без калібрування,18.0,USD,Посилена 🔄 вживана деталь 100% - 0 циклів
 icracked,IPHONE 15 PLUS,АКБ без калібрування,20.0,USD,Посилена 💪🏼 + лого🍏 🔄 вживана деталь 100% - 0 циклів
-icracked,IPHONE 15 PLUS,АКБ з калібруванням,46.0,USD,Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів
 icracked,IPHONE 14 PRO MAX,АКБ без калібрування,20.0,USD,Стандарт 🔄 вживана деталь 100% - 0 циклів
 icracked,IPHONE 14 PRO MAX,АКБ без калібрування,21.0,USD,Посилена 🔄 вживана деталь 100% - 0 циклів
 icracked,IPHONE 14 PRO MAX,АКБ без калібрування,23.0,USD,Посилена 💪🏼 + лого🍏 🔄 вживана деталь 100% - 0 циклів
 icracked,IPHONE 14 PLUS,АКБ без калібрування,16.0,USD,Стандарт 🔄 вживана деталь 100% - 0 циклів
 icracked,IPHONE 14 PLUS,АКБ без калібрування,17.0,USD,Посилена 🔄 вживана деталь 100% - 0 циклів
 icracked,IPHONE 14 PLUS,АКБ без калібрування,19.0,USD,Посилена 💪🏼 + лого🍏 🔄 вживана деталь 100% - 0 циклів
-icracked,IPHONE 14 PLUS,АКБ з калібруванням,44.0,USD,Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів
 icracked,IPHONE 13 PRO MAX,АКБ без калібрування,18.0,USD,Стандарт 🔄 вживана деталь 100% - 0 циклів
 icracked,IPHONE 13 PRO MAX,АКБ без калібрування,19.0,USD,Посилена 🔄 вживана деталь 100% - 0 циклів
 icracked,IPHONE 13 PRO MAX,АКБ без калібрування,21.0,USD,Посилена 💪🏼 + лого🍏 🔄 вживана деталь 100% - 0 циклів
@@ -810,266 +808,237 @@ levelparts,IPHONE 17 PRO MAX,,44.0,USD,"𝐊орпус iPhone
 (Якість оригінал 1:1)"
 levelparts,IPHONE 17 PRO MAX,Кришка корпусу задня без обвісу,7.0,USD,"𝐂кло корпусу iPhone(в зборі з склом камери(сапфір), магнітами)"
 levelparts,IPHONE 17 PRO MAX,,0.5,USD,Проклейка LCD/BC
-uparts,,Витратні матеріали для монтажу,0.8,USD,"Клей-Герметик B7000, Универсальный, Прозрачный, 15 мл"
-uparts,,Витратні матеріали для монтажу,2.0,USD,"Клей-Герметик B7000, Универсальный, Прозрачный, 110 мл"
-uparts,,Витратні матеріали для монтажу,3.0,USD,Клей силиконовый T-7000 черный 110мл с дозатором
-uparts,,Витратні матеріали для монтажу,0.9,USD,"Клей Relife T7000, 15 мл., Черны"
-uparts,,Витратні матеріали для монтажу,12.0,USD,Клей с повышенной адгезией HL (30 мл.)
-uparts,,Витратні матеріали для монтажу,25.0,USD,клей LOCTITE 3542 30мл
-uparts,,Витратні матеріали для монтажу,1.8,USD,"Праймер 3М, Primer 94 с кисточкой, 10 мл"
-uparts,,Витратні матеріали для монтажу,1.9,USD,"Клей 2UUL DA42, 25 мл., Чорний"
-uparts,,Витратні матеріали для монтажу,1.9,USD,"Клей 2UUL DA42, 25 мл., Білий"
-uparts,,Витратні матеріали для монтажу,9.0,USD,"Клей 2UUL Guru Glue Soft Buffer Adhesive DA43, поліуретановий, для рамок, 30мл, чорний + 20 насадок дозаторів"
-uparts,,Витратні матеріали для монтажу,9.0,USD,"Клей 2UUL Guru Glue Soft Buffer Adhesive DA44, поліуретановий, для рамок, 30мл, білий + 20 насадок дозаторів"
-uparts,,Витратні матеріали для монтажу,3.5,USD,"Клей 2UUL DA45 Mr. Glue, 60 мл., Чорний"
-uparts,,Витратні матеріали для монтажу,4.7,USD,Спрей FALCON 530 для очистки плат (550 мл)
-uparts,,Витратні матеріали для монтажу,3.0,USD,"Клей 2UUL DA45 Mr. Glue, 60 мл., Белый"
-uparts,,Витратні матеріали для монтажу,0.44,USD,"Голка для дозування клею (флюсу), металев (22G)"
-uparts,,Витратні матеріали для монтажу,0.6,USD,"Голка для дозування клею (флюсу), металев (23G)"
-uparts,,Витратні матеріали для монтажу,1.3,USD,Двосторонній скотч 3M (3мм x 25м) Чорний
-uparts,,Витратні матеріали для монтажу,1.64,USD,Двосторонній скотч 3M (5мм x 25м) Чорний
-uparts,,Витратні матеріали для монтажу,1.2,USD,Скотч двухсторонний акриловый 3М 1 мм красный
-uparts,,Витратні матеріали для монтажу,1.25,USD,Скотч двухсторонний акриловый 3М 2 мм красный
-uparts,,Витратні матеріали для монтажу,1.36,USD,Скотч двухсторонний акриловый 3М 3 мм красный
-uparts,,Витратні матеріали для монтажу,3.0,USD,Скотч двухсторонний акриловый 3М 4 мм красный
-uparts,,Витратні матеріали для монтажу,2.3,USD,Скотч двухсторонний акриловый 3М 5 мм красный
-uparts,,Витратні матеріали для монтажу,3.5,USD,Скотч двухсторонний акриловый 3М 6 мм красный
-uparts,,Витратні матеріали для монтажу,0.64,USD,"Термостійкий скотч каптон, термоскотч 3мм"
-uparts,,Витратні матеріали для монтажу,0.75,USD,"Термостійкий скотч каптон, термоскотч 5мм"
-uparts,,Витратні матеріали для монтажу,0.91,USD,"Термостійкий скотч каптон, термоскотч 8мм"
-uparts,,Витратні матеріали для монтажу,2.62,USD,"Термостійкий скотч каптон, термоскотч 18мм"
-uparts,,Витратні матеріали для монтажу,4.5,USD,"Термостійкий скотч каптон, термоскотч 30мм"
-uparts,,Витратні матеріали для монтажу,4.5,USD,Чистячі серветки 2UUL CL01 (10*10 см) (100 шт.)
-uparts,,Витратні матеріали для монтажу,4.0,USD,Антистатические салфетки Kaisi 2036 (200шт)
-uparts,,Витратні матеріали для монтажу,0.5,USD,Меламінова губка
-uparts,,Витратні матеріали для монтажу,6.0,USD,Наногубки для чистки электроники KSLiD S200
-uparts,,Інструменти,0.79,USD,Набір лез Kaisi №16
-uparts,,Інструменти,0.79,USD,Набір лез Kaisi №12
-uparts,,Інструменти,0.79,USD,Набір лез Kaisi №4
-uparts,,Інструменти,0.8,USD,"Леза скальпеля Kaisi №17 для ручок з цангою, упаковка 10 шт."
-uparts,,Інструменти,0.7,USD,"Леза для скальпеля X-Acto 4A для ручок з цангою, упаковка 10шт."
-uparts,,Інструменти,0.45,USD,Леза скальпеля FR1 mechanic
-uparts,,Інструменти,10.0,USD,Набор лезвий RJ #15 (100 шт)
-uparts,,Інструменти,0.7,USD,Лопатка пластиковая для вскрытия корпусов техники
-uparts,,Інструменти,1.6,USD,Лопатка RELIFE RL-060B
-uparts,,Інструменти,8.5,USD,Ніж зняття компаунда (4 в 1) 2UUL DA11
-uparts,,Інструменти,4.9,USD,"Набор лезвий для BGA микросхем (компаунда) 2UUL DA14 ""S"" (без ручки+4 лезвия)"
-uparts,,Інструменти,4.9,USD,"Набор лезвий для BGA микросхем (компаунда) 2UUL DA14 ""Е"" (без ручки+4 лезвия)"
-uparts,,Інструменти,4.9,USD,"Набор лезвий для BGA микросхем (компаунда) 2UUL DA14 ""X"" (без ручки+4 лезвия)"
-uparts,,Інструменти,4.9,USD,"Набор лезвий для BGA микросхем (компаунда) 2UUL DA14 ""Y"" (без ручки+4 лезвия)"
-uparts,,Інструменти,1.7,USD,Струна сепараторная 0.03
-uparts,,Інструменти,1.7,USD,Струна сепараторная 0.035
-uparts,,Інструменти,1.7,USD,Струна сепараторная 0.1
-uparts,,Інструменти,1.0,USD,"Карта металлическая QianLi шестиугольник, для разборки"
-uparts,,Інструменти,1.0,USD,"Карта металлическая QianLi пятиугольник, для разборки"
-uparts,,Інструменти,19.0,USD,Набір інструментів Air Slice Open для Macbook Air Pro
-uparts,,Інструменти,11.0,USD,Отвертка Qianli 3d i-Thor B (Tri-point)
-uparts,,Інструменти,11.0,USD,Отвертка Qianli 3d i-Thor A (Philips)
-uparts,,Інструменти,11.0,USD,Отвертка Qianli 3d i-Thor C (Pentalobe)
-uparts,,Інструменти,11.0,USD,Отвертка Qianli 3d i-Thor D (Pinhead Philips)
-uparts,,Інструменти,11.0,USD,Отвертка Qianli 3d i-Thor E (T2 Torx)
-uparts,,Інструменти,6.0,USD,Отвертка латунная 2D пятиконечная звезда 0.8
-uparts,,Інструменти,6.0,USD,Отвертка латунная 2D Y 0.6
-uparts,,Інструменти,6.0,USD,Отвертка латунная 2D  крестовая 1.5
-uparts,,Інструменти,6.0,USD,Отвертка латунная 2D  2.5
-uparts,,Інструменти,6.0,USD,Отвертка латунная 2D ручка T2
-uparts,,Інструменти,2.5,USD,пинцет изогнутый нескользящий
-uparts,,Інструменти,2.3,USD,Пинцет прямой ST-13
-uparts,,Інструменти,2.3,USD,Пинцет прямой ST-11
-uparts,,Інструменти,2.3,USD,Пинцет угловой ST-20
-uparts,,Інструменти,0.7,USD,Пинцет угловой
-uparts,,Інструменти,8.0,USD,Ручка для снятия стекла Kaisi
-uparts,,Інструменти,13.0,USD,Кисть Mijing Shadaw
-uparts,,Інструменти,2.5,USD,"Ножницы Relife RL-102, с керамическими лезвиями"
-uparts,,Інструменти,3.5,USD,Ручка QianLi 012 iHilt
-uparts,,Інструменти,3.5,USD,Кусачки KS-107
-uparts,,Інструменти,3.5,USD,Кусачки Best 107F1
-uparts,,Інструменти,11.0,USD,Бокорезы DK-F90+
-uparts,,Інструменти,1.2,USD,Зажим - прищепка фиксации дисплея
-uparts,,Інструменти,2.8,USD,"Набор фрез 0,5-6мм  для гравера, бормашинки 9шт (0.5 1 1.5 2 2.5 3 4 5  6мм)"
-uparts,,Інструменти,4.0,USD,Лезвие для разборки Mechanic 003
-uparts,,Інструменти,3.0,USD,Груша для видалення пилу Mechanic B110
-uparts,,Інструменти,12.0,USD,Набор отверток Mechanic iTech (48 in 1)
-uparts,,Інструменти,3.5,USD,Кисточка Mechanic металлическая
-uparts,,Інструменти,3.5,USD,Кисточка Mechanic ворсовая
-uparts,,Інструменти,4.5,USD,Сменные насадки для кисточки Mechanic (ворс)
-uparts,,Інструменти,4.5,USD,Сменные насадки для кисточки Mechanic (металл)
-uparts,,Інструменти,23.5,USD,UYUE 601A Универсальный пресс-формователь для ламинирования и позиционирования заднего стекла и средней рамки для iPhone и Samsung
-uparts,,Інструменти,45.0,USD,2UUL DA06 MAX Съёмник для открытия экранов планшетов и телефонов
-uparts,,Дисплейний модуль,12.0,USD,Держатель-струбцина 2UUL DA09 для для демонтажа дисплейных модулей с присоской (2шт)
-uparts,,Інструменти,23.0,USD,"Держатель 2UUL DA08 Pro универсальный, поворотный"
-uparts,,Інструменти,1.7,USD,"Карандаш, щётка с ластиком STAEDLER"
-uparts,,Інструменти,1.0,USD,"Емкость для жидкости MECHANIC MC-PE50, 50 мл"
-uparts,,Інструменти,5.0,USD,"Емкость для жидкости MECHANIC SD150A, 150 мл"
-uparts,,Інструменти,1.0,USD,Емкость для флюса и жидкостей TELIJIA TE-P4 з дозатором 65 ml Yellow/Blue
-uparts,,Інструменти,9.0,USD,Подставка для инструментов BEST BST-10S
-uparts,,Інструменти,8.5,USD,Подставка для инструментов  TE-193
-uparts,,Інструменти,14.0,USD,Подставка для инструментов Relife RL-001H
-uparts,,,35.0,USD,Паяльная станция Mechanic T12 pro
-uparts,,,43.0,USD,Паяльна станція KSGER C245
-uparts,,,37.0,USD,Паяльна станція Mechanic T12
-uparts,,,37.0,USD,Паяльная станция ATTEN AT-969
-uparts,,,94.0,USD,Паяльна станція ATTEN WX-2008D
-uparts,,,43.0,USD,Паяльная станция ATTEN ST-2090D
-uparts,,,130.0,USD,Паяльная станция ATTEN WX-1500
-uparts,,,230.0,USD,"Паяльна станція 3 в 1 ATTEN WX-100 паяльная станция, термовоздушная станция, блок питания"
-uparts,,,248.0,USD,Термоповітряна паяльна станція ATTEN ST-862D
-uparts,,,90.0,USD,Термовоздушная паяльная станция QUICK 857DW+ / фен / 580 Вт / 100-450°С / 50 л/мин
-uparts,,,280.0,USD,Паяльная станция PDK1200 C115
-uparts,,,48.0,USD,"Портативный паяльник SEQURE S60 на жалах C210 с поддержкой PD2.0/3.0, QC2.0/3.0"
-uparts,,,45.0,USD,Портативный паяльник SEQURE S20 на жалах C115
-uparts,,,4.5,USD,Подставка для паяльника MECHANIC HK-B
-uparts,,,5.8,USD,"BGA паста Mechanic NS48, 148 C, 40 г для пайки"
-uparts,,,3.7,USD,Флюс паста MECHANIC SD360 в шприце
-uparts,,,3.0,USD,Оплітка для зняття припою Mr.Yang 2.0мм 1.5м антистатична
-uparts,,,3.0,USD,"Оплетка для снятия припоя Chemtronics Soder Wick 80-4-5 1,5м - 2,0мм"
-uparts,,,26.0,USD,Оплетка Goot Wick CP-15B 1.5mm 30m
-uparts,,,26.0,USD,оплетка Goot Wick CP-30B 3mm 20m
-uparts,,,3.97,USD,Очисник жал паяльника Mechanic MCN-20 (N9)
-uparts,,,6.0,USD,Паяльная паста в шприцах Relife RL-404S 138°C (10cc)
-uparts,,,2.7,USD,Паяльна паста V3B45 легкоплавка 138 ° C Mechanic
-uparts,,,2.5,USD,"Припой Mechanic N83, 0,8 мм, 25 г"
-uparts,,,38.0,USD,Аппарат для точечной сварки i2c dl-03s 30a
-uparts,,,19.0,USD,набор жал KAISI C115-I / C115-IS / C115-K (оригинал)
-uparts,,,3.2,USD,Жало MECHANIC OT-I T12
-uparts,,,3.2,USD,Жало MECHANIC OT-IS T12
-uparts,,,3.2,USD,Жало MECHANIC OT-TI T12
-uparts,,,3.2,USD,Жало MECHANIC OT-TIS T12
-uparts,,,3.2,USD,Жало MECHANIC OT-2.4D T12
-uparts,,,3.2,USD,Жало MECHANIC OT-OK T12
-uparts,,,5.5,USD,Подставка для жал паяльника BEST BST-R16
-uparts,,,1.5,USD,Стружка для очистки жал
-uparts,,,3.0,USD,Стружка для очистки жал с подставкой
-uparts,,,3.7,USD,Паяльна паста Mechanic XGSP50 183°C
-uparts,,,1.45,USD,Екстрактор RELIFE RL-062D
-uparts,,,4.0,USD,"Спрей MECHANIC CS691 для очистки плат, 550 мл"
-uparts,,,1.3,USD,Олововідсмоктувач помповий
-uparts,,,62.0,USD,Олеофобная жидкость
-uparts,,Витратні матеріали для монтажу,10.0,USD,Клей УФ JiuTu для полировки дисплеев
-uparts,,,90.0,USD,Порошок для полировки 5кг
-uparts,,,20.0,USD,Килимок для полірування дисплеїв для JiuTu 50см
-uparts,,,11.5,USD,форма для полировки apple watch 44mm
-uparts,,,11.5,USD,форма для полировки apple watch 40mm
-uparts,,,11.5,USD,форма для полировки apple watch 46mm
-uparts,IPHONE 11,,10.0,USD,форма для полировки iphone 11/xr
-uparts,IPHONE 11 PRO,,10.0,USD,форма для полировки iphone 11 pro
-uparts,IPHONE 11 PRO MAX,,10.0,USD,форма для полировки iphone 11 pro max
-uparts,IPHONE 12 PRO,,10.0,USD,форма для полировки Iphone 12-12 Pro
-uparts,IPHONE 12 PRO MAX,,10.0,USD,форма для полировки Iphone 12 Pro Max
-uparts,IPHONE 12 MINI,,10.0,USD,форма для полировки Iphone 12 mini
-uparts,IPHONE 13,,11.0,USD,форма для полировки Iphone 13
-uparts,IPHONE 13 PRO,,11.0,USD,форма для полировки iphone 13 pro
-uparts,IPHONE 13 PRO MAX,,11.0,USD,форма для полировки Iphone 13 Pro Max
-uparts,IPHONE 13 MINI,,11.0,USD,форма для полировки Iphone 13 mini
-uparts,IPHONE 14,,11.5,USD,форма для полировки Iphone 14
-uparts,IPHONE 14 PLUS,,11.5,USD,форма для полировки Iphone 14 Plus
-uparts,IPHONE 14 PRO,,11.5,USD,форма для полировки Iphone 14 pro
-uparts,IPHONE 14 PRO MAX,,11.5,USD,форма для полировки Iphone 14 pro max
-uparts,IPHONE 15,,11.5,USD,форма для полировки Iphone 15
-uparts,IPHONE 15 PLUS,,11.5,USD,форма для полировки Iphone 15 Plus
-uparts,IPHONE 15 PRO MAX,,11.5,USD,форма для полировки Iphone 15 Pro Max
-uparts,IPHONE 16,,12.0,USD,форма для полировки Iphone 16
-uparts,IPHONE 16 PRO,,12.0,USD,форма для полировки Iphone 16 pro
-uparts,IPHONE 16 PLUS,,12.0,USD,форма для полировки Iphone 16 Plus
-uparts,IPHONE 16 PRO MAX,,12.0,USD,форма для полировки Iphone 16 Pro Max
-uparts,IPHONE 17,,12.0,USD,форма для полировки Iphone 17
-uparts,IPHONE 17 AIR,,12.0,USD,форма для полировки Iphone 17 Air
-uparts,IPHONE 17 PRO,,12.0,USD,форма для полировки Iphone 17 Pro
-uparts,IPHONE 17 PRO MAX,,12.0,USD,форма для полировки Iphone 17 Pro Max
-uparts,,,38.0,USD,"Средство для очистки камеры телефона IFIXES IS900, 500 мл"
-uparts,,,57.0,USD,"Средство для очистки камеры телефона IFIXES IS900, 1000 мл"
-uparts,,,57.0,USD,"Средство для очистки камеры телефона REFOX RC40, 1000 мл"
-uparts,,,41.0,USD,Ультразвукова ванна (iClean-E08B) Mechanic
-uparts,,,12.0,USD,Фиксатор для ремонта камер
-uparts,,,13.0,USD,держатель Wextom для фронтальной камеры
-uparts,,,8.0,USD,IFixes is-30 краска для линз камер
-uparts,IPHONE 11,,3.5,USD,Набор защиты для основной камеры iphone 11-16pm
-uparts,IPHONE 17 PRO MAX,,8.0,USD,набор магнитных защит камеры iPhone 6-17 pro Max (M.Y. 4-in-1)
-uparts,,,9.0,USD,Защита для линз камеры Relife RL-099
-uparts,,Витратні матеріали для монтажу,4.0,USD,Клей для камер iFixes iF-02 (синий) / iC-03 (желтый) / iL-01 (красный)
-uparts,,,4.8,USD,2UUL DA31 Защитные стикеры для фронтальной камеры (500 шт. в упаковке)
-uparts,,,5.8,USD,"Захисний стікер на камери 2UUL DA30 X1000PCS, 7мм – 500шт. 12мм – 500шт."
-uparts,,,39.0,USD,Макрообъектив Uni-T UT-Z003 (UTI320E/UTI260E)
-uparts,,,620.0,USD,Тепловизор ручной Unit Uti320E
-uparts,,,125.0,USD,Камера для микроскопа RF4 4KC1 3840x2160 30fps
-uparts,,,80.0,USD,Держатель микроскопа с фокусировочным зажимом RF4 K047T
-uparts,,,310.0,USD,"Микроскоп RF4 7050PRO-FO19 с увеличением 7–50x, вращающийся на 360°, с регулируемым поворотным кронштейном и металлической подставкой."
-uparts,,,34.0,USD,Штатив для мікроскопа RF4 RF-F025
-uparts,,,355.0,USD,тринокулярный стереомикроскоп RF-6565PRO
-uparts,,,23.0,USD,Лінза-адаптер C-Mount 0.5 PRO для камер і мікроскопів
-uparts,,,25.0,USD,Подсветка для микроскопа iFixes IL37
-uparts,,,9.35,USD,Щупы для мультиметра BST-050-JP
-uparts,,,15.0,USD,мультиметр UNI-T UT33D+
-uparts,,,30.0,USD,мультиметр UNI-T UT89X
-uparts,,,93.0,USD,мультиметр UNI-T UT61E+
-uparts,,,60.0,USD,Цифровий мультиметр UNI-T UT139C
-uparts,,,2.4,USD,магнитный коврик 25*20см
-uparts,,,62.0,USD,Коврик нагревательный mj cpb lcd open BIG для разборки 380х220
-uparts,,,55.0,USD,Коврик нагревательный mj cpb lcd open для разборки 300х170
-uparts,,,8.0,USD,Силиконовый коврик 45х30 см
-uparts,,,17.0,USD,Машинка для удаления OCA клея MaAnt CJ-3
-uparts,,,20.0,USD,Машинка для видалення клею OCA клея MaAnt CJ-1
-uparts,,,19.0,USD,Машинка для видалення клею OCA Kaisi NT-913
-uparts,,,15.0,USD,Бормашинка аккумуляторная MaAnt D2
-uparts,,,60.0,USD,Калибратор для аккумулятора iPhone 6in1 DL F316
-uparts,,,53.0,USD,"Сепаратор 8.5"" AIDA A-918"
-uparts,,,2.0,USD,Коврик силиконовый для компрессорного сепаратора 11 х 19 см
-uparts,,,18.0,USD,Основная платка DL400 Pro
-uparts,,,250.0,USD,Тестер дисплеїв Iphone DL400 Pro
-uparts,IPHONE X,,370.0,USD,Тестер дисплеїв DL400 Pro з набором шлейфів iPhone X-16pm
-uparts,IPHONE 17,,33.0,USD,Набор шлейфов iPhone 17 DL400 Pro
-uparts,,,70.0,USD,Лабораторный блок SPS605D
-uparts,,,191.0,USD,Программатор Apple Watch S7/S8/S9/Ultra/Ultra 2
-uparts,,,35.0,USD,Калибратор i2C KC03
-uparts,,,21.5,USD,Тестер разъемов питания QIANLI iBridge A3
-uparts,,,6.5,USD,"USB-тестер для измерения ёмкости,тока,времени (KWS-066C)"
-uparts,,,23.0,USD,УФ лампа QianLi Intelligente UV Curing Lamp
-uparts,,АКБ з калібруванням,12.0,USD,Лампа ультрафіолетова Mechanic UV L1 Pro Curing Lamp (з акумулятором)
-uparts,,,6.0,USD,Ультрафіолетова лампа Mayuan MY-38
-uparts,,,113.0,USD,Ультрафіолетова лампа NJLD LD-29-2
-uparts,,,6.0,USD,Кабеля для блоков питания SUNSHINE SS-905F Android
-uparts,AIRPODS PRO,,17.0,USD,Держатель для Наушников Airpods pro 1/2
-uparts,AIRPODS,,25.0,USD,Тримач MaAnt P1 для ремонту AirPods
-uparts,,,30.0,USD,Xiaomi вентилятор сжатого воздуха 50000 об/мин
-uparts,IPHONE 13 PRO MAX,,14.0,USD,Фіксатор-платформа QianLi DZJ1 ID Face для фронтальной камери и DOT сенсора iPhone X - 13 Pro Max
-uparts,IPHONE X,Трафарет,23.0,USD,BGA трафарет Amaoe iPhone LCD с платформой X-16pm/X-17pm
-uparts,,Трафарет,5.0,USD,Трафарет BGA Amaoe универсальный
-uparts,,,78.0,USD,термопресс 2UUL DA07
-uparts,,,100.0,USD,Нагревательный пресс 2UUL DA05 для телефонов
-uparts,,,75.0,USD,Осциллограф FNIRSI 5012H
-uparts,,,120.0,USD,Осциллограф OWON HDS242
-uparts,,,125.0,USD,Осциллограф FNIRSI 1013D
-uparts,,,220.0,USD,Осциллограф OWON SDS1102
-uparts,IPHONE 16 PRO MAX,,52.0,USD,Платформа MiJing Z20 Pro 18 в 1 iPhone X-16 pro max
-uparts,IPHONE 12,,130.0,USD,Тестер материнской платы XZZ для iPhone 12
-uparts,IPHONE 13,,180.0,USD,инструмент для диагностики платы iSocket QianLi iPhone 13
-uparts,IPHONE 14,,180.0,USD,инструмент для диагностики платы iSocket QianLi iPhone 14
-uparts,IPHONE 15,,190.0,USD,инструмент для диагностики платы iSocket QianLi iPhone 15
-uparts,IPHONE 16,,210.0,USD,инструмент для диагностики платы iSocket QianLi iPhone 16
-uparts,IPHONE 16,,180.0,USD,Тестер для диагностики платы Socket XZZ iPhone 16
-uparts,,,77.0,USD,Преднагреватель (нижний подогрев) KAISI K-303 Pro
-uparts,,,11.0,USD,модуль Android для KAISI K-303 Pro
-uparts,IPHONE 11,,13.0,USD,модуль iPhone 11 для KAISI K-303 Pro
-uparts,IPHONE 13,,15.0,USD,модуль iPhone 13 для KAISI K-303 Pro
-uparts,IPHONE 14,,17.0,USD,модуль iPhone 14 для KAISI K-303 Pro
-uparts,,,13.0,USD,модуль Face ID для KAISI K-303 Pro
-uparts,IPHONE X,,8.5,USD,"Пресс-форма Apple iPhone X/XS, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE XS,,8.5,USD,"Пресс-форма Apple iPhone XS Max, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE XR,,8.5,USD,"Пресс-форма Apple iPhone XR/11, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 11,,8.5,USD,"Пресс-форма Apple iPhone 11 Pro, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 11 PRO,,8.5,USD,"Пресс-форма Apple iPhone 11 Pro Max, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 12,,8.5,USD,"Пресс-форма Apple iPhone 12/12 Pro, для отцентровки и склеивания дисплея со стеклом"
-uparts,,,8.5,USD,"Пресс-форма Apple iPhone12 Pro Max, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 12,,8.5,USD,"Пресс-форма Apple iPhone 12 mini, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 13,,9.5,USD,"Пресс-форма Apple iPhone 13/13 Pro, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 13 PRO,,9.5,USD,"Пресс-форма Apple iPhone 13 Pro Max, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 13,,9.5,USD,"Пресс-форма Apple iPhone 13 mini, для отцентровки и склеивания дисплея со стеклом"
-uparts,,,9.5,USD,"Пресс-форма Apple iPhone 14, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 14,,9.5,USD,"Пресс-форма Apple iPhone 14 Plus, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 14,,9.5,USD,"Пресс-форма Apple iPhone 14 Pro, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 14 PRO,,9.5,USD,"Пресс-форма Apple iPhone 14 Pro Max, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 15,,9.5,USD,"Пресс-форма Apple iPhone 15 Pro, для отцентровки и склеивания дисплея со стеклом"
-uparts,,,9.5,USD,"Пресс-форма Apple iPhone15 Pro Max, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 15,,9.5,USD,"Пресс-форма Apple iPhone 15/16, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 16,,9.5,USD,"Пресс-форма Apple iPhone 16 Pro, для отцентровки и склеивания дисплея со стеклом"
-uparts,IPHONE 16 PRO,,9.5,USD,"Пресс-форма Apple iPhone 16 Pro max, для отцентровки и склеивания дисплея со стеклом"
+uparts,,,7000.0,USD,1
+uparts,,,7000.0,USD,2
+uparts,,,-7000.0,USD,3
+uparts,,,7000.0,USD,4
+uparts,,,30.0,USD,5
+uparts,,,3542.0,USD,6
+uparts,,,3.0,USD,7
+uparts,,,2.0,USD,8
+uparts,,,2.0,USD,9
+uparts,,,2.0,USD,10
+uparts,,,2.0,USD,11
+uparts,,,2.0,USD,12
+uparts,,,530.0,USD,13
+uparts,,,2.0,USD,14
+uparts,,,22.0,USD,15
+uparts,,,23.0,USD,16
+uparts,,,3.0,USD,1
+uparts,,,3.0,USD,2
+uparts,,,3.0,USD,3
+uparts,,,3.0,USD,4
+uparts,,,3.0,USD,5
+uparts,,,3.0,USD,6
+uparts,,,3.0,USD,7
+uparts,,,3.0,USD,8
+uparts,,,5.0,USD,9
+uparts,,,8.0,USD,10
+uparts,,,18.0,USD,11
+uparts,,,30.0,USD,12
+uparts,,,2.0,USD,13
+uparts,,,2036.0,USD,14
+uparts,,,200.0,USD,16
+uparts,,,16.0,USD,1
+uparts,,,12.0,USD,2
+uparts,,,4.0,USD,3
+uparts,,,17.0,USD,4
+uparts,,,4.0,USD,5
+uparts,,,1.0,USD,6
+uparts,,,15.0,USD,7
+uparts,,,-60.0,USD,9
+uparts,,,4.0,USD,10
+uparts,,,2.0,USD,11
+uparts,,,2.0,USD,12
+uparts,,,2.0,USD,13
+uparts,,,2.0,USD,14
+uparts,,,0.03,USD,15
+uparts,,,0.035,USD,16
+uparts,,,0.1,USD,17
+uparts,,,3.0,USD,1
+uparts,,,3.0,USD,2
+uparts,,,3.0,USD,3
+uparts,,,3.0,USD,4
+uparts,,,3.0,USD,6
+uparts,,,2.0,USD,5
+uparts,,,2.0,USD,7
+uparts,,,2.0,USD,8
+uparts,,,2.0,USD,9
+uparts,,,2.0,USD,10
+uparts,,,-13.0,USD,11
+uparts,,,-11.0,USD,12
+uparts,,,-20.0,USD,13
+uparts,,,-102.0,USD,17
+uparts,,,12.0,USD,18
+uparts,,,-107.0,USD,19
+uparts,,,107.0,USD,20
+uparts,,,90.0,USD,21
+uparts,,,0.5,USD,23
+uparts,,,3.0,USD,24
+uparts,,,110.0,USD,25
+uparts,,,48.0,USD,26
+uparts,,,601.0,USD,31
+uparts,,,2.0,USD,32
+uparts,,,2.0,USD,33
+uparts,,,2.0,USD,34
+uparts,,,50.0,USD,36
+uparts,,,150.0,USD,37
+uparts,,,4.0,USD,38
+uparts,,,-10.0,USD,39
+uparts,,,-193.0,USD,40
+uparts,,,-1.0,USD,41
+uparts,,,12.0,USD,1
+uparts,,,245.0,USD,2
+uparts,,,12.0,USD,3
+uparts,,,-969.0,USD,4
+uparts,,,-2008.0,USD,5
+uparts,,,-2090.0,USD,6
+uparts,,,-1500.0,USD,7
+uparts,,,3.0,USD,8
+uparts,,,-862.0,USD,9
+uparts,,,857.0,USD,10
+uparts,,,1200.0,USD,11
+uparts,,,60.0,USD,12
+uparts,,,20.0,USD,13
+uparts,,,48.0,USD,15
+uparts,,,360.0,USD,16
+uparts,,,2.0,USD,17
+uparts,,,80.0,USD,18
+uparts,,,-15.0,USD,19
+uparts,,,-30.0,USD,20
+uparts,,,-20.0,USD,21
+uparts,,,-404.0,USD,22
+uparts,,,3.0,USD,23
+uparts,,,83.0,USD,24
+uparts,,,2.0,USD,25
+uparts,,,115.0,USD,26
+uparts,,,12.0,USD,27
+uparts,,,12.0,USD,28
+uparts,,,12.0,USD,29
+uparts,,,12.0,USD,30
+uparts,,,-2.4,USD,31
+uparts,,,12.0,USD,32
+uparts,,,16.0,USD,33
+uparts,,,50.0,USD,36
+uparts,,,-62.0,USD,37
+uparts,,,691.0,USD,38
+uparts,,,5.0,USD,3
+uparts,,,50.0,USD,4
+uparts,,,44.0,USD,5
+uparts,,,40.0,USD,6
+uparts,,,46.0,USD,7
+uparts,,,11.0,USD,8
+uparts,,,11.0,USD,9
+uparts,,,11.0,USD,10
+uparts,,,12.0,USD,11
+uparts,,,12.0,USD,12
+uparts,,,12.0,USD,13
+uparts,,,13.0,USD,14
+uparts,,,13.0,USD,15
+uparts,,,13.0,USD,16
+uparts,,,13.0,USD,17
+uparts,,,14.0,USD,18
+uparts,,,14.0,USD,19
+uparts,,,14.0,USD,20
+uparts,,,14.0,USD,21
+uparts,,,15.0,USD,22
+uparts,,,15.0,USD,23
+uparts,,,15.0,USD,24
+uparts,,,16.0,USD,25
+uparts,,,16.0,USD,26
+uparts,,,16.0,USD,27
+uparts,,,16.0,USD,28
+uparts,,,900.0,USD,1
+uparts,,,900.0,USD,2
+uparts,,,40.0,USD,3
+uparts,,,8.0,USD,4
+uparts,,,-30.0,USD,7
+uparts,,,11.0,USD,8
+uparts,,,-99.0,USD,9
+uparts,,,-2.0,USD,10
+uparts,,,2.0,USD,11
+uparts,,,2.0,USD,12
+uparts,,,3.0,USD,1
+uparts,,,320.0,USD,2
+uparts,,,4.0,USD,3
+uparts,,,4.0,USD,4
+uparts,,,4.0,USD,5
+uparts,,,4.0,USD,6
+uparts,,,-6565.0,USD,7
+uparts,,,0.5,USD,8
+uparts,,,37.0,USD,9
+uparts,,,-50.0,USD,10
+uparts,,,33.0,USD,11
+uparts,,,89.0,USD,12
+uparts,,,61.0,USD,13
+uparts,,,139.0,USD,14
+uparts,,,25.0,USD,1
+uparts,,,380.0,USD,2
+uparts,,,300.0,USD,3
+uparts,,,45.0,USD,4
+uparts,,,-3.0,USD,1
+uparts,,,-1.0,USD,2
+uparts,,,-913.0,USD,3
+uparts,,,2.0,USD,4
+uparts,,,6.0,USD,5
+uparts,,,8.5,USD,6
+uparts,,,11.0,USD,7
+uparts,,,400.0,USD,8
+uparts,,,400.0,USD,9
+uparts,,,400.0,USD,10
+uparts,,,17.0,USD,11
+uparts,,,605.0,USD,12
+uparts,,,7.0,USD,13
+uparts,,,2.0,USD,14
+uparts,,,3.0,USD,15
+uparts,,,-66.0,USD,16
+uparts,,,1.0,USD,18
+uparts,,,-38.0,USD,19
+uparts,,,-29.0,USD,20
+uparts,,,7.0,USD,21
+uparts,,,-905.0,USD,22
+uparts,,,1.0,USD,23
+uparts,,,1.0,USD,24
+uparts,,,50000.0,USD,25
+uparts,,,1.0,USD,26
+uparts,,,-16.0,USD,27
+uparts,,,0.12,USD,28
+uparts,,,0.12,USD,29
+uparts,,,0.12,USD,30
+uparts,,,0.12,USD,31
+uparts,,,2.0,USD,33
+uparts,,,5012.0,USD,34
+uparts,,,242.0,USD,35
+uparts,,,1013.0,USD,36
+uparts,,,1102.0,USD,37
+uparts,,,20.0,USD,38
+uparts,,,12.0,USD,39
+uparts,,,13.0,USD,40
+uparts,,,14.0,USD,41
+uparts,,,15.0,USD,42
+uparts,,,16.0,USD,43
+uparts,,,16.0,USD,44
+uparts,,,-303.0,USD,45
+uparts,,,-303.0,USD,46
+uparts,,,11.0,USD,47
+uparts,,,13.0,USD,48
+uparts,,,14.0,USD,49
+uparts,,,-303.0,USD,50
+uparts,,,11.0,USD,3
+uparts,,,11.0,USD,4
+uparts,,,11.0,USD,5
+uparts,,,12.0,USD,6
+uparts,,,12.0,USD,7
+uparts,,,12.0,USD,8
+uparts,,,13.0,USD,9
+uparts,,,13.0,USD,10
+uparts,,,13.0,USD,11
+uparts,,,14.0,USD,12
+uparts,,,14.0,USD,13
+uparts,,,14.0,USD,14
+uparts,,,14.0,USD,15
+uparts,,,15.0,USD,16
+uparts,,,15.0,USD,17
+uparts,,,15.0,USD,18
+uparts,,,16.0,USD,19
+uparts,,,16.0,USD,20

@@ -74,7 +74,7 @@ U.109.000-033,,Рамка кріплення дисплея,0,,,
 U.109.000-034,,Рамка кріплення дисплея,0,,,
 U.086.000-001,Apple IPhone 13,Шлейф програмування АКБ,0,,,
 U.099.000-001,Apple IPhone 13,Магнітне кільце MagSafe,0,,,
-U.118.000-003,Apple IPhone 13,Трафарет,1,4.0,uparts,4.0$ uparts (Ціна — Трафарет Amaoe BGA 0.12mm Apple iPhone 13)
+U.118.000-003,Apple IPhone 13,Трафарет,0,,,
 U.069.000-007,Apple IPhone 13,Шлейф верхній з датчиком світла,0,,,
 U.016.000-030,Apple IPhone 13,Гвинти фіксуючі (дисплейні),0,,,
 U.016.000-031,Apple IPhone 13,Гвинти фіксуючі (дисплейні),0,,,
@@ -173,6 +173,7 @@ U.101.000-002,"Apple IPhone 13, Apple IPhone 13 Pro, Apple IPhone 14, Apple IPho
 U.008.000-011,Apple IPhone 14,АКБ без калібрування,4,5.7,icracked,5.7$ icracked (Банка (АКБ без контроллера)) | 14.0$ icracked (Стандарт 🔄 вживана деталь 100% - 0 циклів) | 15.0$ icracked (Посилена 🔄 вживана деталь 100% - 0 циклів) | 17.0$ icracked (Посилена 💪🏼 + лого🍏 🔄 вживана деталь 100% - 0 циклів)
 U.009.000-068,Apple IPhone 14,АКБ з калібруванням,1,42.0,icracked,42.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.008.000-020,"Apple iPhone 14, Apple iPhone 15",АКБ без калібрування,4,5.7,icracked,5.7$ icracked (Банка (АКБ без контроллера)) | 16.0$ icracked (Стандарт 🔄 вживана деталь 100% - 0 циклів) | 17.0$ icracked (Посилена 🔄 вживана деталь 100% - 0 циклів) | 19.0$ icracked (Посилена 💪🏼 + лого🍏 🔄 вживана деталь 100% - 0 циклів)
+U.009.000-105,Apple iPhone 14,АКБ з калібруванням,1,42.0,icracked,42.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.019.000-008,Apple IPhone 14,Шлейф з датчиком наближення,0,,,
 U.021.000-004,Apple IPhone 14,Динамік верхній (Speaker),0,,,
 U.022.000-004,Apple IPhone 14,Динамік нижній (Buzzer),0,,,
@@ -202,7 +203,7 @@ U.076.000-002,Apple IPhone 14,Шлейф модулю Bluetooth/NFC,0,,,
 U.078.000-001,Apple IPhone 14,Шлейф модулю WiFi,0,,,
 U.080.000-001,Apple IPhone 14,Шлейф нижнього доку (в зборі),0,,,
 U.085.000-003,Apple IPhone 14,Камера фронтальна без FaceID,0,,,
-U.118.000-004,Apple IPhone 14,Трафарет,1,4.0,uparts,4.0$ uparts (Ціна — Трафарет Amaoe BGA 0.12mm Apple iPhone 14)
+U.118.000-004,Apple IPhone 14,Трафарет,0,,,
 U.118.000-005,,Трафарет,0,,,
 U.118.000-006,,Трафарет,0,,,
 U.118.000-007,,Трафарет,0,,,
@@ -312,11 +313,11 @@ U.009.000-087,Apple IPhone 14 Pro,АКБ з калібруванням,1,44.0,ic
 U.154.000-006,Apple IPhone 14 Pro,Форма для пресу,0,,,
 U.169.000-001,Apple IPhone 14 Pro,Шлейф основної камери,0,,,
 U.169.000-002,,Шлейф основної камери,0,,,
-U.009.000-070,Apple IPhone 14 Pro Max,АКБ з калібруванням,2,27.3,uparts,27.3$ uparts (Ціна — Кабели с платой активации QianLi iPower Pro Max 7th V2.2 для подключения плат и АКБ iPhone 6 - 14 Pro Max) | 46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
-U.009.000-004,Apple IPhone 14 Pro Max,АКБ з калібруванням,2,27.3,uparts,27.3$ uparts (Ціна — Кабели с платой активации QianLi iPower Pro Max 7th V2.2 для подключения плат и АКБ iPhone 6 - 14 Pro Max) | 46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
-U.009.000-013,Apple IPhone 14 Pro Max,АКБ з калібруванням,2,27.3,uparts,27.3$ uparts (Ціна — Кабели с платой активации QianLi iPower Pro Max 7th V2.2 для подключения плат и АКБ iPhone 6 - 14 Pro Max) | 46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
-U.009.000-017,Apple IPhone 14 Pro Max,АКБ з калібруванням,2,27.3,uparts,27.3$ uparts (Ціна — Кабели с платой активации QianLi iPower Pro Max 7th V2.2 для подключения плат и АКБ iPhone 6 - 14 Pro Max) | 46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
-U.009.000-018,Apple IPhone 14 Pro Max,АКБ з калібруванням,2,27.3,uparts,27.3$ uparts (Ціна — Кабели с платой активации QianLi iPower Pro Max 7th V2.2 для подключения плат и АКБ iPhone 6 - 14 Pro Max) | 46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-070,Apple IPhone 14 Pro Max,АКБ з калібруванням,1,46.0,icracked,46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-004,Apple IPhone 14 Pro Max,АКБ з калібруванням,1,46.0,icracked,46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-013,Apple IPhone 14 Pro Max,АКБ з калібруванням,1,46.0,icracked,46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-017,Apple IPhone 14 Pro Max,АКБ з калібруванням,1,46.0,icracked,46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-018,Apple IPhone 14 Pro Max,АКБ з калібруванням,1,46.0,icracked,46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.016.000-005,Apple IPhone 14 Pro Max,Гвинти фіксуючі (дисплейні),0,,,
 U.016.000-006,Apple IPhone 14 Pro Max,Гвинти фіксуючі (дисплейні),0,,,
 U.016.000-007,Apple IPhone 14 Pro Max,Гвинти фіксуючі (дисплейні),0,,,
@@ -435,7 +436,7 @@ U.084.000-039,Apple IPhone 15,Корпус смартфону в зборі,0,,,
 U.084.000-040,Apple IPhone 15,Корпус смартфону в зборі,0,,,
 U.084.000-041,Apple IPhone 15,Корпус смартфону в зборі,0,,,
 U.084.000-042,Apple IPhone 15,Корпус смартфону в зборі,0,,,
-U.118.000-001,Apple IPhone 15,Трафарет,1,5.0,uparts,5.0$ uparts (Ціна — Трафарет Amaoe BGA 0.12mm Apple iPhone 15)
+U.118.000-001,Apple IPhone 15,Трафарет,0,,,
 U.016.000-025,Apple IPhone 15,Гвинти фіксуючі (дисплейні),0,,,
 U.016.000-026,Apple IPhone 15,Гвинти фіксуючі (дисплейні),0,,,
 U.016.000-027,Apple IPhone 15,Гвинти фіксуючі (дисплейні),0,,,
@@ -558,8 +559,10 @@ U.009.000-073,Apple IPhone 15 Pro Max,АКБ з калібруванням,1,46.
 U.009.000-074,Apple IPhone 15 Pro Max,АКБ з калібруванням,1,46.0,icracked,46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.009.000-094,Apple iPhone 15 Pro,АКБ з калібруванням,1,45.0,icracked,45.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.009.000-095,Apple iPhone 15,АКБ з калібруванням,1,44.0,icracked,44.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
-U.009.000-096,Apple iPhone 14 Pro Max,АКБ з калібруванням,2,27.3,uparts,27.3$ uparts (Ціна — Кабели с платой активации QianLi iPower Pro Max 7th V2.2 для подключения плат и АКБ iPhone 6 - 14 Pro Max) | 46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-107,Apple iPhone 15 Plus,АКБ з калібруванням,1,46.0,icracked,46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-096,Apple iPhone 14 Pro Max,АКБ з калібруванням,1,46.0,icracked,46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.009.000-097,Apple iPhone 14 Pro,АКБ з калібруванням,1,44.0,icracked,44.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
+U.009.000-106,Apple iPhone 14 Plus,АКБ з калібруванням,1,44.0,icracked,44.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.009.000-098,Apple iPhone 13 Pro Max,АКБ з калібруванням,1,46.0,icracked,46.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.009.000-099,Apple iPhone 13 Pro,АКБ з калібруванням,1,44.0,icracked,44.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
 U.009.000-100,Apple iPhone 13,АКБ з калібруванням,1,41.0,icracked,41.0$ icracked (Genuine batteries ✅ Оригінальна деталь 100% - 0 циклів)
@@ -666,7 +669,7 @@ U.023.000-085,,Дисплейний модуль,0,,,
 U.025.000-019,Apple IPhone 16,Камера основна без лідару,0,,,
 U.084.000-085,Apple IPhone 16,Корпус смартфону в зборі,0,,,
 U.134.000-021,iPhone 16 Pro,Рамка корпусу,0,,,
-U.118.000-002,Apple IPhone 16,Трафарет,1,5.0,uparts,5.0$ uparts (Ціна — Трафарет Amaoe BGA 0.12mm Apple iPhone 16)
+U.118.000-002,Apple IPhone 16,Трафарет,0,,,
 U.161.000-002,Apple IPhone 16,Форма полірувальна,0,,,
 U.154.000-008,Apple IPhone 16,Форма для пресу,0,,,
 U.061.000-064,Apple IPhone 16,Скло дисплейного модулю,6,2.1,refparts,2.1$ refparts (Великий опт — Скло+ОСА G+OCA pro iPhone 16) | 2.15$ refparts (Середній опт — Скло+ОСА G+OCA pro iPhone 16) | 2.2$ refparts (Дрібний опт — Скло+ОСА G+OCA pro iPhone 16) | 3.55$ refparts (Великий опт — Скло+ОСА Feaglet iPhone 16) | 3.6$ refparts (Середній опт — Скло+ОСА Feaglet iPhone 16) | 3.8$ refparts (Дрібний опт — Скло+ОСА Feaglet iPhone 16)
@@ -751,7 +754,7 @@ U.154.000-002,Apple IPhone 16 Pro,Форма для пресу,0,,,
 U.143.000-002,Apple IPhone 16 Pro,Шлейф програмування,0,,,
 U.143.000-003,Apple iPhone 15 Pro,Шлейф програмування,0,,,
 U.143.000-004,Apple iPhone 15 Pro,Шлейф програмування,0,,,
-U.143.000-006,,Шлейф програмування,0,,,
+U.143.000-006,Apple iPhone 16,Шлейф програмування,0,,,
 U.161.000-005,Apple IPhone 16 Pro,Форма полірувальна,0,,,
 U.154.000-009,Apple IPhone 16 Pro,Форма для пресу,0,,,
 U.008.000-001,Apple IPhone 16 Pro Max,АКБ без калібрування,2,9.8,icracked,9.8$ icracked (Банка (АКБ без контроллера)) | 75.0$ icracked (Посилена 💪🏼 + лого🍏 🔄 вживана деталь 100% - 0 циклів)
@@ -881,6 +884,7 @@ U.061.000-032,Google Pixel 4a,Скло дисплейного модулю,0,,,
 U.061.000-031,Google Pixel 5,Скло дисплейного модулю,0,,,
 U.061.000-058,Google Pixel 6,Скло дисплейного модулю,0,,,
 U.008.000-003,Google Pixel 7,АКБ без калібрування,0,,,
+U.009.000-108,,АКБ з калібруванням,0,,,
 U.019.000-001,Google Pixel 7,Шлейф з датчиком наближення,0,,,
 U.145.000-003,Google Pixel 7,Шлейф мікрофону,0,,,
 U.021.000-012,Google Pixel 7,Динамік верхній (Speaker),0,,,
@@ -1017,13 +1021,14 @@ U.088.000-003,Google Pixel 8 Pro,Комплект кришок задніх ко
 U.088.000-004,Google Pixel 8 Pro,Комплект кришок задніх корпусу,0,,,
 U.023.000-063,Google Pixel 8 Pro,Дисплейний модуль,0,,,
 U.049.000-022,Google Pixel 8 Pro,Проклейка для ДМ,0,,,
-U.049.000-034,,Проклейка для ДМ,0,,,
+U.049.000-034,Google Pixel 8a,Проклейка для ДМ,0,,,
 U.049.000-029,Google Pixel 7 Pro,Проклейка для ДМ,0,,,
-U.049.000-041,,Проклейка для ДМ,0,,,
+U.049.000-041,Google Pixel 7,Проклейка для ДМ,0,,,
 U.023.000-068,Google Pixel 8 Pro,Дисплейний модуль,0,,,
 U.026.000-017,Google Pixel 8 Pro,Камера основна з лідаром,0,,,
 U.061.000-057,Google Pixel 8 Pro,Скло дисплейного модулю,0,,,
 U.008.000-005,Google Pixel 8a,АКБ без калібрування,0,,,
+U.009.000-109,Google Pixel 8 Pro,АКБ з калібруванням,0,,,
 U.021.000-015,Google Pixel 8a,Динамік верхній (Speaker),0,,,
 U.022.000-015,Google Pixel 8a,Динамік нижній (Buzzer),0,,,
 U.023.000-053,Google Pixel 8A,Дисплейний модуль,0,,,
@@ -1663,3 +1668,4 @@ U.064.000-073,,Суміші для пайки,0,,,
 U.064.000-074,,Суміші для пайки,0,,,
 U.064.000-075,,Суміші для пайки,0,,,
 U.064.000-076,,Суміші для пайки,0,,,
+U.114.000-003,,Програматор для iPhone,0,,,
